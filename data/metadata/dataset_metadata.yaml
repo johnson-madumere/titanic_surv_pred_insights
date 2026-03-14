@@ -1,0 +1,53 @@
+dataset_title: "Titanic passenger dataset used in this project"
+source_filename: "titanic1.csv"
+local_filename: "titanic.csv"
+local_path: "data/raw/titanic.csv"
+
+description: >
+  Course-provided Titanic passenger dataset used for survival prediction analysis.
+  The raw dataset contains non-standard column names such as 'Passengerid',
+  'sibsp', multiple repeated 'zero' columns, and '2urvived'.
+
+format: "csv"
+encoding: "utf-8"
+delimiter: ","
+header_row: true
+
+structure:
+  row_count: 1309
+  column_count: 28
+  schema_file: "data/metadata/data_dictionary.csv"
+
+access:
+  access_level: "restricted"
+  primary_source: "https://brightspace.saxion.nl/content/enforced/139122-ACT_MICT_DATAOPS_2526_3/titanic1.csv?ou=139122"
+  access_notes: >
+    This dataset is distributed through the Saxion Brightspace course environment
+    and may require institutional login access.
+  public_fallback_source: null
+  public_fallback_notes: >
+    No schema-equivalent public fallback source is currently documented.
+    The Kaggle Titanic dataset is related but does not match this raw file structure exactly.
+
+provenance:
+  retrieval_date: "2026-03-14"
+  distributed_by: "Saxion Brightspace course platform"
+  original_source_notes: >
+    The exact original public source and license of this course-provided file
+    are not fully documented in the repository.
+
+integrity:
+  sha256: null
+  sha256_status: "pending"
+
+license:
+  status: "unknown/restricted unless explicitly provided"
+  notes: >
+    Use is limited to academic/project purposes unless the original dataset
+    provider states otherwise.
+
+notes:
+  - "The raw dataset is not stored in the repository."
+  - "Place the dataset in data/raw/ before running notebooks."
+  - "Column definitions are documented in data/metadata/data_dictionary.csv."
+  - "Several raw columns named 'zero' are treated as placeholder or non-informative fields during preprocessing."

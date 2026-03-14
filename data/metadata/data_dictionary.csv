@@ -1,0 +1,29 @@
+column_index,raw_column_name,canonical_name,data_type,description,allowed_values,notes
+1,Passengerid,PassengerId,integer,Unique passenger identifier,positive integer,Raw header uses lowercase d
+2,Age,Age,float,Passenger age in years,non-negative numeric,
+3,Fare,Fare,float,Ticket fare paid,non-negative numeric,
+4,Sex,Sex,string,Passenger sex,"male; female",
+5,sibsp,SibSp,integer,Number of siblings or spouses aboard,non-negative integer,Raw header is lowercase
+6,zero,zero_01,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+7,zero,zero_02,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+8,zero,zero_03,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+9,zero,zero_04,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+10,zero,zero_05,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+11,zero,zero_06,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+12,zero,zero_07,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+13,Parch,Parch,integer,Number of parents or children aboard,non-negative integer,
+14,zero,zero_08,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+15,zero,zero_09,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+16,zero,zero_10,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+17,zero,zero_11,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+18,zero,zero_12,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+19,zero,zero_13,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+20,zero,zero_14,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+21,zero,zero_15,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+22,Pclass,Pclass,integer,Passenger class,"1 = First; 2 = Second; 3 = Third",
+23,zero,zero_16,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+24,zero,zero_17,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+25,Embarked,Embarked,string,Port of embarkation,"C; Q; S",
+26,zero,zero_18,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+27,zero,zero_19,unknown,Unnamed or placeholder column,,Repeated placeholder column in raw dataset
+28,2urvived,Survived,integer,Survival outcome,"0 = did not survive; 1 = survived",Raw header appears to contain a leading 2

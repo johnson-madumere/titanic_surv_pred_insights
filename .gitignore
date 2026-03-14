@@ -1,5 +1,10 @@
 # Data
-/data/
+/data/*
+!/data/metadata/
+!/data/metadata/data_dictionary.csv
+!/data/metadata/dataset_metadata.yaml
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
 
 # Mac OS-specific storage files
 .DS_Store
@@ -147,6 +152,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv-lock/
 env/
 venv/
 ENV/
