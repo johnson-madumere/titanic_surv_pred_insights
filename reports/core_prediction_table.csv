@@ -1,0 +1,198 @@
+PassengerID,SurvivedActual,SurvivedPredicted,SurvivalProbability,PrimaryDriver
+1,Survived,Did Not Survive,0.29195368253592807,Passenger Class
+2,Did Not Survive,Did Not Survive,0.4075754130353808,Passenger Class
+3,Did Not Survive,Did Not Survive,0.21178838739198852,Passenger Class
+4,Did Not Survive,Did Not Survive,0.3554506120125883,Passenger Class
+5,Did Not Survive,Did Not Survive,0.3880227815442236,Passenger Class
+6,Did Not Survive,Did Not Survive,0.20312132091644847,Passenger Class
+7,Survived,Survived,0.5561353365469334,Gender
+8,Did Not Survive,Did Not Survive,0.23016494412841024,Passenger Class
+9,Survived,Did Not Survive,0.31781428334295564,Age
+10,Did Not Survive,Did Not Survive,0.3636599409701209,Passenger Class
+11,Survived,Survived,0.6438247585393834,Passenger Class
+12,Did Not Survive,Did Not Survive,0.24665606698355244,Passenger Class
+13,Survived,Survived,0.6438329048483284,Passenger Class
+14,Did Not Survive,Did Not Survive,0.21174737634111726,Passenger Class
+15,Did Not Survive,Did Not Survive,0.21177406014150219,Passenger Class
+16,Did Not Survive,Did Not Survive,0.24941758088168534,Passenger Class
+17,Did Not Survive,Did Not Survive,0.2117088374152584,Passenger Class
+18,Survived,Survived,0.7132057821589908,Gender
+19,Survived,Survived,0.8968525876275794,Gender
+20,Did Not Survive,Survived,0.8637601696612769,Gender
+21,Did Not Survive,Did Not Survive,0.3105957109078543,Passenger Class
+22,Survived,Did Not Survive,0.46579546409149414,Passenger Class
+23,Did Not Survive,Survived,0.8693564409521692,Gender
+24,Did Not Survive,Did Not Survive,0.3790599529247179,Passenger Class
+25,Did Not Survive,Did Not Survive,0.3266121516578898,Age
+26,Did Not Survive,Did Not Survive,0.23467390984695533,Passenger Class
+27,Did Not Survive,Did Not Survive,0.21177652703477687,Passenger Class
+28,Did Not Survive,Survived,0.7830895620086169,Gender
+29,Did Not Survive,Did Not Survive,0.18257875804475146,Passenger Class
+30,Survived,Survived,0.6437263119624039,Passenger Class
+31,Did Not Survive,Did Not Survive,0.21174737634111726,Passenger Class
+32,Did Not Survive,Survived,0.6792698568181703,Passenger Class
+33,Survived,Survived,0.7827487653157532,Gender
+34,Survived,Survived,0.7578782068023947,Gender
+35,Did Not Survive,Did Not Survive,0.2135286960194109,Passenger Class
+36,Survived,Did Not Survive,0.20739539986559233,Passenger Class
+37,Did Not Survive,Did Not Survive,0.22072692032398186,Passenger Class
+38,Did Not Survive,Survived,0.5401290164917955,Age
+39,Did Not Survive,Survived,0.5603873802899675,Passenger Class
+40,Did Not Survive,Did Not Survive,0.1367553895592818,Passenger Class
+41,Did Not Survive,Survived,0.5687332520036753,Passenger Class
+42,Survived,Survived,0.7713716783792953,Gender
+43,Did Not Survive,Did Not Survive,0.3579041981200623,Passenger Class
+44,Did Not Survive,Did Not Survive,0.23083499707779961,Age
+45,Did Not Survive,Did Not Survive,0.14468457096538398,Passenger Class
+46,Did Not Survive,Survived,0.643870914425355,Passenger Class
+47,Did Not Survive,Did Not Survive,0.22531891535240023,Passenger Class
+48,Survived,Did Not Survive,0.4145905431756334,Age
+49,Did Not Survive,Did Not Survive,0.2540248825003873,Passenger Class
+50,Did Not Survive,Did Not Survive,0.24428937251991373,Passenger Class
+51,Did Not Survive,Did Not Survive,0.2541791797052379,Passenger Class
+52,Did Not Survive,Did Not Survive,0.48596635812328276,Passenger Class
+53,Did Not Survive,Did Not Survive,0.29390539181600683,Passenger Class
+54,Did Not Survive,Survived,0.9231219644484594,Gender
+55,Did Not Survive,Did Not Survive,0.24708417341802413,Passenger Class
+56,Survived,Survived,0.738911252559106,Gender
+57,Did Not Survive,Did Not Survive,0.045654555272397944,Passenger Class
+58,Survived,Survived,0.5370127521390351,Age
+59,Did Not Survive,Did Not Survive,0.19501536973351208,Passenger Class
+60,Did Not Survive,Did Not Survive,0.40081007319945605,Passenger Class
+61,Did Not Survive,Did Not Survive,0.22765189247545806,Passenger Class
+62,Did Not Survive,Survived,0.6438118546156524,Passenger Class
+63,Did Not Survive,Survived,0.6176474496882581,Passenger Class
+64,Did Not Survive,Survived,0.6438749873543665,Passenger Class
+65,Did Not Survive,Survived,0.6438607320117543,Passenger Class
+66,Survived,Survived,0.7548324277612318,Gender
+67,Did Not Survive,Did Not Survive,0.24919873573838996,Passenger Class
+68,Survived,Did Not Survive,0.45126546242173726,Passenger Class
+69,Did Not Survive,Did Not Survive,0.2117088374152584,Passenger Class
+70,Survived,Survived,0.6764270118558932,Gender
+71,Did Not Survive,Survived,0.7743181517149295,Gender
+72,Did Not Survive,Did Not Survive,0.2396394759961777,Passenger Class
+73,Did Not Survive,Survived,0.5406408985047746,Age
+74,Did Not Survive,Did Not Survive,0.395260722345062,Age
+75,Did Not Survive,Survived,0.690811110416201,Passenger Class
+76,Did Not Survive,Did Not Survive,0.14904236088682268,Passenger Class
+77,Did Not Survive,Did Not Survive,0.2694750834194646,Passenger Class
+78,Did Not Survive,Survived,0.541505382804185,Age
+79,Did Not Survive,Did Not Survive,0.2116653598091605,Passenger Class
+80,Survived,Survived,0.8965465412368174,Gender
+81,Did Not Survive,Did Not Survive,0.2117710951533561,Passenger Class
+82,Did Not Survive,Survived,0.5799201969149045,Passenger Class
+83,Did Not Survive,Did Not Survive,0.14166749698915576,Passenger Class
+84,Did Not Survive,Did Not Survive,0.211709335424038,Passenger Class
+85,Did Not Survive,Did Not Survive,0.1905958166576894,Passenger Class
+86,Survived,Did Not Survive,0.20759986225058208,Passenger Class
+87,Did Not Survive,Survived,0.6321182175288286,Passenger Class
+88,Did Not Survive,Did Not Survive,0.21180667701481498,Passenger Class
+89,Did Not Survive,Did Not Survive,0.1906620503400165,Passenger Class
+90,Did Not Survive,Survived,0.8525121491699216,Gender
+91,Did Not Survive,Survived,0.5272122498006634,Age
+92,Did Not Survive,Did Not Survive,0.32086916494928513,Age
+93,Did Not Survive,Did Not Survive,0.3880227815442236,Passenger Class
+94,Survived,Survived,0.7891904688963921,Gender
+95,Survived,Survived,0.6437269963400328,Passenger Class
+96,Did Not Survive,Did Not Survive,0.3006067014906568,Passenger Class
+97,Did Not Survive,Survived,0.8819774150956704,Gender
+98,Did Not Survive,Did Not Survive,0.15484101526039812,Age
+99,Did Not Survive,Did Not Survive,0.23947121691722414,Passenger Class
+100,Survived,Survived,0.8365456922666622,Gender
+101,Did Not Survive,Did Not Survive,0.3697943586887958,Passenger Class
+102,Survived,Survived,0.6438329048483284,Passenger Class
+103,Did Not Survive,Did Not Survive,0.16893512735953728,Passenger Class
+104,Survived,Survived,0.8854090675907681,Gender
+105,Did Not Survive,Survived,0.6906884328804502,Passenger Class
+106,Did Not Survive,Did Not Survive,0.14988351773736736,Passenger Class
+107,Did Not Survive,Did Not Survive,0.21178641853906702,Passenger Class
+108,Did Not Survive,Survived,0.5323195389179338,Age
+109,Did Not Survive,Did Not Survive,0.4188406224321298,Age
+110,Did Not Survive,Survived,0.6774950573202494,Gender
+111,Did Not Survive,Did Not Survive,0.37798346045093245,Age
+112,Survived,Did Not Survive,0.484227384517005,Age
+113,Did Not Survive,Survived,0.5323195389179338,Age
+114,Did Not Survive,Did Not Survive,0.18876140539993078,Age
+115,Did Not Survive,Did Not Survive,0.2643235753347254,Passenger Class
+116,Did Not Survive,Did Not Survive,0.10266115168449876,Passenger Class
+117,Survived,Survived,0.6762387823150372,Passenger Class
+118,Did Not Survive,Did Not Survive,0.24090430274655641,Passenger Class
+119,Did Not Survive,Did Not Survive,0.1905743564217257,Passenger Class
+120,Survived,Survived,0.6438118546156524,Passenger Class
+121,Did Not Survive,Survived,0.5372195683778098,Age
+122,Survived,Did Not Survive,0.4975094748359838,Passenger Class
+123,Did Not Survive,Survived,0.7767351953210586,Gender
+124,Survived,Survived,0.6989449116789901,Passenger Class
+125,Did Not Survive,Did Not Survive,0.2117710951533561,Passenger Class
+126,Did Not Survive,Did Not Survive,0.21178838739198852,Passenger Class
+127,Survived,Did Not Survive,0.26951354858383675,Passenger Class
+128,Did Not Survive,Did Not Survive,0.19056567640162525,Passenger Class
+129,Did Not Survive,Did Not Survive,0.14793323293542818,Passenger Class
+130,Did Not Survive,Survived,0.7435531125372173,Gender
+131,Did Not Survive,Survived,0.7419547875191417,Gender
+132,Survived,Did Not Survive,0.357009671571056,Age
+133,Did Not Survive,Did Not Survive,0.44469750659176815,Passenger Class
+134,Survived,Survived,0.8651614508876265,Gender
+135,Did Not Survive,Did Not Survive,0.2117088374152584,Passenger Class
+136,Did Not Survive,Did Not Survive,0.2373879103600059,Passenger Class
+137,Did Not Survive,Did Not Survive,0.28830980241179766,Passenger Class
+138,Did Not Survive,Did Not Survive,0.28335758287992086,Passenger Class
+139,Did Not Survive,Did Not Survive,0.29390539181600683,Passenger Class
+140,Did Not Survive,Did Not Survive,0.2746926315936114,Age
+141,Did Not Survive,Did Not Survive,0.2117710951533561,Passenger Class
+142,Did Not Survive,Did Not Survive,0.41338924354402784,Passenger Class
+143,Did Not Survive,Survived,0.8909028155155665,Gender
+144,Did Not Survive,Did Not Survive,0.4476544471964717,Age
+145,Did Not Survive,Survived,0.6438118546156524,Passenger Class
+146,Survived,Did Not Survive,0.30995652577497784,Passenger Class
+147,Survived,Did Not Survive,0.28450826987050437,Passenger Class
+148,Did Not Survive,Survived,0.6254572709225984,Passenger Class
+149,Survived,Survived,0.8173766384482279,Gender
+150,Survived,Survived,0.8287046764445472,Gender
+151,Did Not Survive,Survived,0.7901757825549341,Gender
+152,Did Not Survive,Did Not Survive,0.21632381579388452,Passenger Class
+153,Did Not Survive,Did Not Survive,0.19467350452336737,Passenger Class
+154,Did Not Survive,Survived,0.5488026789004149,Passenger Class
+155,Did Not Survive,Survived,0.6438607320117543,Passenger Class
+156,Did Not Survive,Did Not Survive,0.19469021334857353,Passenger Class
+157,Did Not Survive,Survived,0.6438118546156524,Passenger Class
+158,Did Not Survive,Did Not Survive,0.23943563402443357,Passenger Class
+159,Did Not Survive,Did Not Survive,0.1636067781716386,Passenger Class
+160,Survived,Did Not Survive,0.45254131990536794,Passenger Class
+161,Did Not Survive,Did Not Survive,0.1398521213775601,Passenger Class
+162,Did Not Survive,Did Not Survive,0.43189836875225773,Age
+163,Survived,Survived,0.5973215237761235,Passenger Class
+164,Did Not Survive,Did Not Survive,0.2442817124976319,Passenger Class
+165,Did Not Survive,Did Not Survive,0.32086916494928513,Age
+166,Survived,Survived,0.8180852818990562,Gender
+167,Survived,Did Not Survive,0.4177772123545049,Passenger Class
+168,Did Not Survive,Did Not Survive,0.48084035140834813,Passenger Class
+169,Did Not Survive,Did Not Survive,0.32203893776313997,Passenger Class
+170,Survived,Survived,0.8693738601681159,Gender
+171,Did Not Survive,Did Not Survive,0.15297858974504425,Passenger Class
+172,Did Not Survive,Did Not Survive,0.3697943586887958,Passenger Class
+173,Survived,Survived,0.6871244159275347,Passenger Class
+174,Survived,Survived,0.8174850916754262,Gender
+175,Did Not Survive,Did Not Survive,0.31092112700335306,Passenger Class
+176,Survived,Survived,0.5005210754278111,Passenger Class
+177,Did Not Survive,Did Not Survive,0.4715235233946443,Passenger Class
+178,Did Not Survive,Did Not Survive,0.10091989080249239,Passenger Class
+179,Did Not Survive,Did Not Survive,0.3277194749700329,Passenger Class
+180,Did Not Survive,Did Not Survive,0.1844224502816524,Passenger Class
+181,Did Not Survive,Did Not Survive,0.3884446533030754,Passenger Class
+182,Survived,Survived,0.7803096498308861,Gender
+183,Did Not Survive,Survived,0.5369155928599555,Age
+184,Survived,Survived,0.6471599828845249,Gender
+185,Did Not Survive,Did Not Survive,0.11501827063865974,Passenger Class
+186,Did Not Survive,Survived,0.6676569068404762,Passenger Class
+187,Did Not Survive,Did Not Survive,0.20741583941166775,Passenger Class
+188,Survived,Survived,0.6498742629748128,Passenger Class
+189,Survived,Survived,0.7519394747669335,Gender
+190,Did Not Survive,Did Not Survive,0.18065547287923045,Passenger Class
+191,Survived,Did Not Survive,0.21760999714134646,Passenger Class
+192,Did Not Survive,Did Not Survive,0.1195945979484297,Passenger Class
+193,Did Not Survive,Did Not Survive,0.2162314819277234,Passenger Class
+194,Did Not Survive,Did Not Survive,0.15619526582768314,Age
+195,Did Not Survive,Did Not Survive,0.3460700142683253,Age
+196,Survived,Did Not Survive,0.4448080279978665,Age
+197,Did Not Survive,Did Not Survive,0.19075479827767658,Passenger Class

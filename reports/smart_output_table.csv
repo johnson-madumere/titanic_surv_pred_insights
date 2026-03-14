@@ -1,0 +1,198 @@
+PassengerID,SurvivedActual,SurvivedPredicted,SurvivalProbability,SurvivalLikelihood,PrimaryDriver,Gender,Age,AgeGroup,Fare,FareBracket,Family_Size,FamilyType,Pclass_Code
+1,Survived,Did Not Survive,0.29195368253592807,Low,Passenger Class,Male,32.0,Young Adult,26.0,High,2,Small Family,2
+2,Did Not Survive,Did Not Survive,0.4075754130353808,Medium,Passenger Class,Male,20.0,Young Adult,13.8625,High,1,Solo,2
+3,Did Not Survive,Did Not Survive,0.21178838739198852,Low,Passenger Class,Male,28.0,Young Adult,7.8958,Low,1,Solo,3
+4,Did Not Survive,Did Not Survive,0.3554506120125883,Low,Passenger Class,Male,28.0,Young Adult,0.0,Low,1,Solo,2
+5,Did Not Survive,Did Not Survive,0.3880227815442236,Low,Passenger Class,Male,23.0,Young Adult,10.5,Medium,1,Solo,2
+6,Did Not Survive,Did Not Survive,0.20312132091644847,Low,Passenger Class,Male,30.0,Young Adult,8.05,Medium,1,Solo,3
+7,Survived,Survived,0.5561353365469334,Medium,Gender,Female,54.0,Adult,23.0,High,5,Large Family,2
+8,Did Not Survive,Did Not Survive,0.23016494412841024,Low,Passenger Class,Male,24.0,Young Adult,9.5,Medium,1,Solo,3
+9,Survived,Did Not Survive,0.31781428334295564,Low,Age,Male,50.0,Adult,133.65,Very High,3,Small Family,1
+10,Did Not Survive,Did Not Survive,0.3636599409701209,Low,Passenger Class,Male,27.0,Young Adult,13.0,Medium,1,Solo,2
+11,Survived,Survived,0.6438247585393834,Medium,Passenger Class,Female,28.0,Young Adult,7.8292,Low,1,Solo,3
+12,Did Not Survive,Did Not Survive,0.24665606698355244,Low,Passenger Class,Male,20.5,Young Adult,7.25,Low,1,Solo,3
+13,Survived,Survived,0.6438329048483284,Medium,Passenger Class,Female,28.0,Young Adult,7.8792,Low,1,Solo,3
+14,Did Not Survive,Did Not Survive,0.21174737634111726,Low,Passenger Class,Male,28.0,Young Adult,7.55,Low,1,Solo,3
+15,Did Not Survive,Did Not Survive,0.21177406014150219,Low,Passenger Class,Male,28.0,Young Adult,7.775,Low,1,Solo,3
+16,Did Not Survive,Did Not Survive,0.24941758088168534,Low,Passenger Class,Male,20.0,Young Adult,9.5,Medium,1,Solo,3
+17,Did Not Survive,Did Not Survive,0.2117088374152584,Low,Passenger Class,Male,28.0,Young Adult,7.225,Low,1,Solo,3
+18,Survived,Survived,0.7132057821589908,High,Gender,Female,41.0,Adult,19.5,High,2,Small Family,2
+19,Survived,Survived,0.8968525876275794,High,Gender,Female,22.0,Young Adult,55.0,Very High,2,Small Family,1
+20,Did Not Survive,Survived,0.8637601696612769,High,Gender,Female,36.0,Adult,31.6792,Very High,1,Solo,1
+21,Did Not Survive,Did Not Survive,0.3105957109078543,Low,Passenger Class,Male,36.0,Adult,12.875,Medium,1,Solo,2
+22,Survived,Did Not Survive,0.46579546409149414,Medium,Passenger Class,Male,0.67,Child,14.5,High,3,Small Family,2
+23,Did Not Survive,Survived,0.8693564409521692,High,Gender,Female,39.0,Adult,211.3375,Very High,1,Solo,1
+24,Did Not Survive,Did Not Survive,0.3790599529247179,Low,Passenger Class,Male,25.0,Young Adult,31.5,Very High,1,Solo,2
+25,Did Not Survive,Did Not Survive,0.3266121516578898,Low,Age,Male,58.0,Adult,113.275,Very High,3,Small Family,1
+26,Did Not Survive,Did Not Survive,0.23467390984695533,Low,Passenger Class,Male,23.0,Young Adult,7.8958,Low,1,Solo,3
+27,Did Not Survive,Did Not Survive,0.21177652703477687,Low,Passenger Class,Male,28.0,Young Adult,7.7958,Low,1,Solo,3
+28,Did Not Survive,Survived,0.7830895620086169,High,Gender,Female,12.0,Child,39.0,Very High,4,Small Family,2
+29,Did Not Survive,Did Not Survive,0.18257875804475146,Low,Passenger Class,Male,35.0,Young Adult,8.05,Medium,1,Solo,3
+30,Survived,Survived,0.6437263119624039,Medium,Passenger Class,Female,28.0,Young Adult,7.225,Low,1,Solo,3
+31,Did Not Survive,Did Not Survive,0.21174737634111726,Low,Passenger Class,Male,28.0,Young Adult,7.55,Low,1,Solo,3
+32,Did Not Survive,Survived,0.6792698568181703,Medium,Passenger Class,Female,22.0,Young Adult,7.725,Low,1,Solo,3
+33,Survived,Survived,0.7827487653157532,High,Gender,Female,58.0,Adult,153.4625,Very High,2,Small Family,1
+34,Survived,Survived,0.7578782068023947,High,Gender,Female,35.0,Young Adult,21.0,High,1,Solo,2
+35,Did Not Survive,Did Not Survive,0.2135286960194109,Low,Passenger Class,Male,28.0,Young Adult,22.525,High,1,Solo,3
+36,Survived,Did Not Survive,0.20739539986559233,Low,Passenger Class,Male,29.0,Young Adult,7.75,Low,1,Solo,3
+37,Did Not Survive,Did Not Survive,0.22072692032398186,Low,Passenger Class,Male,26.0,Young Adult,7.775,Low,1,Solo,3
+38,Did Not Survive,Survived,0.5401290164917955,Medium,Age,Male,32.5,Young Adult,211.5,Very High,1,Solo,1
+39,Did Not Survive,Survived,0.5603873802899675,Medium,Passenger Class,Female,36.0,Adult,12.1833,Medium,3,Small Family,3
+40,Did Not Survive,Did Not Survive,0.1367553895592818,Low,Passenger Class,Male,48.0,Adult,7.8542,Low,1,Solo,3
+41,Did Not Survive,Survived,0.5687332520036753,Medium,Passenger Class,Female,30.0,Young Adult,24.15,High,3,Small Family,3
+42,Survived,Survived,0.7713716783792953,High,Gender,Female,22.0,Young Adult,29.0,Very High,3,Small Family,2
+43,Did Not Survive,Did Not Survive,0.3579041981200623,Low,Passenger Class,Male,28.0,Young Adult,15.05,High,1,Solo,2
+44,Did Not Survive,Did Not Survive,0.23083499707779961,Low,Age,Male,70.0,Senior,71.0,Very High,3,Small Family,1
+45,Did Not Survive,Did Not Survive,0.14468457096538398,Low,Passenger Class,Male,45.5,Adult,7.225,Low,1,Solo,3
+46,Did Not Survive,Survived,0.643870914425355,Medium,Passenger Class,Female,28.0,Young Adult,8.1125,Medium,1,Solo,3
+47,Did Not Survive,Did Not Survive,0.22531891535240023,Low,Passenger Class,Male,25.0,Young Adult,7.8958,Low,1,Solo,3
+48,Survived,Did Not Survive,0.4145905431756334,Medium,Age,Male,37.0,Adult,52.5542,Very High,3,Small Family,1
+49,Did Not Survive,Did Not Survive,0.2540248825003873,Low,Passenger Class,Male,19.0,Young Adult,6.75,Low,1,Solo,3
+50,Did Not Survive,Did Not Survive,0.24428937251991373,Low,Passenger Class,Male,21.0,Young Adult,7.8542,Low,1,Solo,3
+51,Did Not Survive,Did Not Survive,0.2541791797052379,Low,Passenger Class,Male,19.0,Young Adult,7.8958,Low,1,Solo,3
+52,Did Not Survive,Did Not Survive,0.48596635812328276,Medium,Passenger Class,Female,45.0,Adult,14.1083,High,2,Small Family,3
+53,Did Not Survive,Did Not Survive,0.29390539181600683,Low,Passenger Class,Male,39.0,Adult,13.0,Medium,1,Solo,2
+54,Did Not Survive,Survived,0.9231219644484594,High,Gender,Female,2.0,Child,151.55,Very High,4,Small Family,1
+55,Did Not Survive,Did Not Survive,0.24708417341802413,Low,Passenger Class,Male,48.0,Adult,13.0,Medium,1,Solo,2
+56,Survived,Survived,0.738911252559106,High,Gender,Female,60.0,Adult,75.25,Very High,2,Small Family,1
+57,Did Not Survive,Did Not Survive,0.045654555272397944,Low,Passenger Class,Male,28.0,Young Adult,69.55,Very High,11,Large Family,3
+58,Survived,Survived,0.5370127521390351,Medium,Age,Male,28.0,Young Adult,26.55,High,1,Solo,1
+59,Did Not Survive,Did Not Survive,0.19501536973351208,Low,Passenger Class,Male,4.0,Child,27.9,Very High,6,Large Family,3
+60,Did Not Survive,Did Not Survive,0.40081007319945605,Medium,Passenger Class,Male,21.0,Young Adult,11.5,Medium,1,Solo,2
+61,Did Not Survive,Did Not Survive,0.22765189247545806,Low,Passenger Class,Male,24.5,Young Adult,8.05,Medium,1,Solo,3
+62,Did Not Survive,Survived,0.6438118546156524,Medium,Passenger Class,Female,28.0,Young Adult,7.75,Low,1,Solo,3
+63,Did Not Survive,Survived,0.6176474496882581,Medium,Passenger Class,Female,22.0,Young Adult,12.2875,Medium,3,Small Family,3
+64,Did Not Survive,Survived,0.6438749873543665,Medium,Passenger Class,Female,28.0,Young Adult,8.1375,Medium,1,Solo,3
+65,Did Not Survive,Survived,0.6438607320117543,Medium,Passenger Class,Female,28.0,Young Adult,8.05,Medium,1,Solo,3
+66,Survived,Survived,0.7548324277612318,High,Gender,Female,28.0,Young Adult,24.0,High,2,Small Family,2
+67,Did Not Survive,Did Not Survive,0.24919873573838996,Low,Passenger Class,Male,20.0,Young Adult,7.8542,Low,1,Solo,3
+68,Survived,Did Not Survive,0.45126546242173726,Medium,Passenger Class,Male,3.0,Child,18.75,High,3,Small Family,2
+69,Did Not Survive,Did Not Survive,0.2117088374152584,Low,Passenger Class,Male,28.0,Young Adult,7.225,Low,1,Solo,3
+70,Survived,Survived,0.6764270118558932,Medium,Gender,Female,50.0,Adult,10.5,Medium,1,Solo,2
+71,Did Not Survive,Survived,0.7743181517149295,High,Gender,Female,24.0,Young Adult,27.7208,Very High,2,Small Family,2
+72,Did Not Survive,Did Not Survive,0.2396394759961777,Low,Passenger Class,Male,22.0,Young Adult,9.35,Medium,1,Solo,3
+73,Did Not Survive,Survived,0.5406408985047746,Medium,Age,Male,28.0,Young Adult,47.1,Very High,1,Solo,1
+74,Did Not Survive,Did Not Survive,0.395260722345062,Low,Age,Male,49.0,Adult,0.0,Low,1,Solo,1
+75,Did Not Survive,Survived,0.690811110416201,Medium,Passenger Class,Female,20.0,Young Adult,8.6625,Medium,1,Solo,3
+76,Did Not Survive,Did Not Survive,0.14904236088682268,Low,Passenger Class,Male,34.0,Young Adult,14.4,High,3,Small Family,3
+77,Did Not Survive,Did Not Survive,0.2694750834194646,Low,Passenger Class,Male,16.0,Teen,7.775,Low,1,Solo,3
+78,Did Not Survive,Survived,0.541505382804185,Medium,Age,Male,28.0,Young Adult,52.0,Very High,1,Solo,1
+79,Did Not Survive,Did Not Survive,0.2116653598091605,Low,Passenger Class,Male,28.0,Young Adult,6.8583,Low,1,Solo,3
+80,Survived,Survived,0.8965465412368174,High,Gender,Female,29.0,Young Adult,211.3375,Very High,1,Solo,1
+81,Did Not Survive,Did Not Survive,0.2117710951533561,Low,Passenger Class,Male,28.0,Young Adult,7.75,Low,1,Solo,3
+82,Did Not Survive,Survived,0.5799201969149045,Medium,Passenger Class,Female,28.0,Young Adult,25.4667,High,5,Large Family,3
+83,Did Not Survive,Did Not Survive,0.14166749698915576,Low,Passenger Class,Male,44.0,Adult,16.1,High,2,Small Family,3
+84,Did Not Survive,Did Not Survive,0.211709335424038,Low,Passenger Class,Male,28.0,Young Adult,7.2292,Low,1,Solo,3
+85,Did Not Survive,Did Not Survive,0.1905958166576894,Low,Passenger Class,Male,33.0,Young Adult,8.05,Medium,1,Solo,3
+86,Survived,Did Not Survive,0.20759986225058208,Low,Passenger Class,Male,29.0,Young Adult,9.5,Medium,1,Solo,3
+87,Did Not Survive,Survived,0.6321182175288286,Medium,Passenger Class,Female,2.0,Child,27.9,Very High,6,Large Family,3
+88,Did Not Survive,Did Not Survive,0.21180667701481498,Low,Passenger Class,Male,28.0,Young Adult,8.05,Medium,1,Solo,3
+89,Did Not Survive,Did Not Survive,0.1906620503400165,Low,Passenger Class,Male,33.0,Young Adult,8.6542,Medium,1,Solo,3
+90,Did Not Survive,Survived,0.8525121491699216,High,Gender,Female,27.0,Young Adult,52.0,Very High,4,Small Family,1
+91,Did Not Survive,Survived,0.5272122498006634,Medium,Age,Male,30.0,Young Adult,45.5,Very High,1,Solo,1
+92,Did Not Survive,Did Not Survive,0.32086916494928513,Low,Age,Male,62.0,Senior,26.55,High,1,Solo,1
+93,Did Not Survive,Did Not Survive,0.3880227815442236,Low,Passenger Class,Male,23.0,Young Adult,10.5,Medium,1,Solo,2
+94,Survived,Survived,0.7891904688963921,High,Gender,Female,28.0,Young Adult,12.65,Medium,1,Solo,2
+95,Survived,Survived,0.6437269963400328,Medium,Passenger Class,Female,28.0,Young Adult,7.2292,Low,1,Solo,3
+96,Did Not Survive,Did Not Survive,0.3006067014906568,Low,Passenger Class,Male,24.0,Young Adult,73.5,Very High,3,Small Family,2
+97,Did Not Survive,Survived,0.8819774150956704,High,Gender,Female,33.0,Young Adult,151.55,Very High,1,Solo,1
+98,Did Not Survive,Did Not Survive,0.15484101526039812,Low,Age,Male,70.0,Senior,10.5,Medium,1,Solo,2
+99,Did Not Survive,Did Not Survive,0.23947121691722414,Low,Passenger Class,Male,22.0,Young Adult,8.05,Medium,1,Solo,3
+100,Survived,Survived,0.8365456922666622,High,Gender,Female,44.0,Adult,27.7208,Very High,1,Solo,1
+101,Did Not Survive,Did Not Survive,0.3697943586887958,Low,Passenger Class,Male,26.0,Young Adult,13.0,Medium,1,Solo,2
+102,Survived,Survived,0.6438329048483284,Medium,Passenger Class,Female,28.0,Young Adult,7.8792,Low,1,Solo,3
+103,Did Not Survive,Did Not Survive,0.16893512735953728,Low,Passenger Class,Male,39.0,Adult,24.15,High,1,Solo,3
+104,Survived,Survived,0.8854090675907681,High,Gender,Female,23.0,Young Adult,113.275,Very High,2,Small Family,1
+105,Did Not Survive,Survived,0.6906884328804502,Medium,Passenger Class,Female,20.0,Young Adult,7.8542,Low,1,Solo,3
+106,Did Not Survive,Did Not Survive,0.14988351773736736,Low,Passenger Class,Male,36.5,Adult,17.4,High,2,Small Family,3
+107,Did Not Survive,Did Not Survive,0.21178641853906702,Low,Passenger Class,Male,28.0,Young Adult,7.8792,Low,1,Solo,3
+108,Did Not Survive,Survived,0.5323195389179338,Medium,Age,Male,28.0,Young Adult,0.0,Low,1,Solo,1
+109,Did Not Survive,Did Not Survive,0.4188406224321298,Medium,Age,Male,46.0,Adult,26.0,High,1,Solo,1
+110,Did Not Survive,Survived,0.6774950573202494,Medium,Gender,Female,45.0,Adult,30.0,Very High,3,Small Family,2
+111,Did Not Survive,Did Not Survive,0.37798346045093245,Low,Age,Male,45.0,Adult,134.5,Very High,3,Small Family,1
+112,Survived,Did Not Survive,0.484227384517005,Medium,Age,Male,36.0,Adult,26.3875,High,1,Solo,1
+113,Did Not Survive,Survived,0.5323195389179338,Medium,Age,Male,28.0,Young Adult,0.0,Low,1,Solo,1
+114,Did Not Survive,Did Not Survive,0.18876140539993078,Low,Age,Male,61.0,Senior,12.35,Medium,1,Solo,2
+115,Did Not Survive,Did Not Survive,0.2643235753347254,Low,Passenger Class,Male,17.0,Teen,7.8958,Low,1,Solo,3
+116,Did Not Survive,Did Not Survive,0.10266115168449876,Low,Passenger Class,Male,60.5,Senior,14.4542,High,1,Solo,3
+117,Survived,Survived,0.6762387823150372,Medium,Passenger Class,Female,15.0,Teen,14.4542,High,2,Small Family,3
+118,Did Not Survive,Did Not Survive,0.24090430274655641,Low,Passenger Class,Male,11.5,Child,14.5,High,3,Small Family,3
+119,Did Not Survive,Did Not Survive,0.1905743564217257,Low,Passenger Class,Male,33.0,Young Adult,7.8542,Low,1,Solo,3
+120,Survived,Survived,0.6438118546156524,Medium,Passenger Class,Female,28.0,Young Adult,7.75,Low,1,Solo,3
+121,Did Not Survive,Survived,0.5372195683778098,Medium,Age,Male,28.0,Young Adult,27.7208,Very High,1,Solo,1
+122,Survived,Did Not Survive,0.4975094748359838,Medium,Passenger Class,Male,27.0,Young Adult,53.1,Very High,2,Small Family,1
+123,Did Not Survive,Survived,0.7767351953210586,High,Gender,Female,31.0,Young Adult,21.0,High,1,Solo,2
+124,Survived,Survived,0.6989449116789901,Medium,Passenger Class,Female,0.75,Child,19.2583,High,4,Small Family,3
+125,Did Not Survive,Did Not Survive,0.2117710951533561,Low,Passenger Class,Male,28.0,Young Adult,7.75,Low,1,Solo,3
+126,Did Not Survive,Did Not Survive,0.21178838739198852,Low,Passenger Class,Male,28.0,Young Adult,7.8958,Low,1,Solo,3
+127,Survived,Did Not Survive,0.26951354858383675,Low,Passenger Class,Male,16.0,Teen,8.05,Medium,1,Solo,3
+128,Did Not Survive,Did Not Survive,0.19056567640162525,Low,Passenger Class,Male,33.0,Young Adult,7.775,Low,1,Solo,3
+129,Did Not Survive,Did Not Survive,0.14793323293542818,Low,Passenger Class,Male,9.0,Child,31.3875,Very High,7,Large Family,3
+130,Did Not Survive,Survived,0.7435531125372173,High,Gender,Female,30.0,Young Adult,13.8583,High,2,Small Family,2
+131,Did Not Survive,Survived,0.7419547875191417,High,Gender,Female,38.0,Adult,13.0,Medium,1,Solo,2
+132,Survived,Did Not Survive,0.357009671571056,Low,Age,Male,49.0,Adult,56.9292,Very High,2,Small Family,1
+133,Did Not Survive,Did Not Survive,0.44469750659176815,Medium,Passenger Class,Female,16.0,Teen,46.9,Very High,8,Large Family,3
+134,Survived,Survived,0.8651614508876265,High,Gender,Female,21.0,Young Adult,262.375,Very High,5,Large Family,1
+135,Did Not Survive,Did Not Survive,0.2117088374152584,Low,Passenger Class,Male,28.0,Young Adult,7.225,Low,1,Solo,3
+136,Did Not Survive,Did Not Survive,0.2373879103600059,Low,Passenger Class,Male,50.0,Adult,13.0,Medium,1,Solo,2
+137,Did Not Survive,Did Not Survive,0.28830980241179766,Low,Passenger Class,Male,30.0,Young Adult,26.0,High,3,Small Family,2
+138,Did Not Survive,Did Not Survive,0.28335758287992086,Low,Passenger Class,Male,41.0,Adult,15.0458,High,1,Solo,2
+139,Did Not Survive,Did Not Survive,0.29390539181600683,Low,Passenger Class,Male,39.0,Adult,13.0,Medium,1,Solo,2
+140,Did Not Survive,Did Not Survive,0.2746926315936114,Low,Age,Male,61.0,Senior,262.375,Very High,5,Large Family,1
+141,Did Not Survive,Did Not Survive,0.2117710951533561,Low,Passenger Class,Male,28.0,Young Adult,7.75,Low,1,Solo,3
+142,Did Not Survive,Did Not Survive,0.41338924354402784,Medium,Passenger Class,Male,19.0,Young Adult,10.5,Medium,1,Solo,2
+143,Did Not Survive,Survived,0.8909028155155665,High,Gender,Female,30.0,Young Adult,164.8667,Very High,1,Solo,1
+144,Did Not Survive,Did Not Survive,0.4476544471964717,Medium,Age,Male,42.0,Adult,42.5,Very High,1,Solo,1
+145,Did Not Survive,Survived,0.6438118546156524,Medium,Passenger Class,Female,28.0,Young Adult,7.75,Low,1,Solo,3
+146,Survived,Did Not Survive,0.30995652577497784,Low,Passenger Class,Male,6.0,Child,12.475,Medium,2,Small Family,3
+147,Survived,Did Not Survive,0.28450826987050437,Low,Passenger Class,Male,3.0,Child,15.9,High,3,Small Family,3
+148,Did Not Survive,Survived,0.6254572709225984,Medium,Passenger Class,Female,31.0,Young Adult,7.8542,Low,1,Solo,3
+149,Survived,Survived,0.8173766384482279,High,Gender,Female,14.0,Teen,30.0708,Very High,2,Small Family,2
+150,Survived,Survived,0.8287046764445472,High,Gender,Female,24.0,Young Adult,263.0,Very High,6,Large Family,1
+151,Did Not Survive,Survived,0.7901757825549341,High,Gender,Female,28.0,Young Adult,21.0,High,1,Solo,2
+152,Did Not Survive,Did Not Survive,0.21632381579388452,Low,Passenger Class,Male,27.0,Young Adult,8.6625,Medium,1,Solo,3
+153,Did Not Survive,Did Not Survive,0.19467350452336737,Low,Passenger Class,Male,32.0,Young Adult,7.775,Low,1,Solo,3
+154,Did Not Survive,Survived,0.5488026789004149,Medium,Passenger Class,Female,28.0,Young Adult,23.25,High,3,Small Family,3
+155,Did Not Survive,Survived,0.6438607320117543,Medium,Passenger Class,Female,28.0,Young Adult,8.05,Medium,1,Solo,3
+156,Did Not Survive,Did Not Survive,0.19469021334857353,Low,Passenger Class,Male,32.0,Young Adult,7.925,Medium,1,Solo,3
+157,Did Not Survive,Survived,0.6438118546156524,Medium,Passenger Class,Female,28.0,Young Adult,7.75,Low,1,Solo,3
+158,Did Not Survive,Did Not Survive,0.23943563402443357,Low,Passenger Class,Male,22.0,Young Adult,7.775,Low,1,Solo,3
+159,Did Not Survive,Did Not Survive,0.1636067781716386,Low,Passenger Class,Male,40.0,Adult,7.225,Low,1,Solo,3
+160,Survived,Did Not Survive,0.45254131990536794,Medium,Passenger Class,Male,3.0,Child,26.0,High,3,Small Family,2
+161,Did Not Survive,Did Not Survive,0.1398521213775601,Low,Passenger Class,Male,47.0,Adult,7.25,Low,1,Solo,3
+162,Did Not Survive,Did Not Survive,0.43189836875225773,Medium,Age,Male,37.0,Adult,53.1,Very High,2,Small Family,1
+163,Survived,Survived,0.5973215237761235,Medium,Passenger Class,Female,28.0,Young Adult,16.1,High,2,Small Family,3
+164,Did Not Survive,Did Not Survive,0.2442817124976319,Low,Passenger Class,Male,21.0,Young Adult,7.7958,Low,1,Solo,3
+165,Did Not Survive,Did Not Survive,0.32086916494928513,Low,Age,Male,62.0,Senior,26.55,High,1,Solo,1
+166,Survived,Survived,0.8180852818990562,High,Gender,Female,21.0,Young Adult,10.5,Medium,1,Solo,2
+167,Survived,Did Not Survive,0.4177772123545049,Medium,Passenger Class,Male,1.0,Child,39.0,Very High,4,Small Family,2
+168,Did Not Survive,Did Not Survive,0.48084035140834813,Medium,Passenger Class,Female,28.0,Young Adult,25.4667,High,5,Large Family,3
+169,Did Not Survive,Did Not Survive,0.32203893776313997,Low,Passenger Class,Male,34.0,Young Adult,13.0,Medium,1,Solo,2
+170,Survived,Survived,0.8693738601681159,High,Gender,Female,28.0,Young Adult,89.1042,Very High,2,Small Family,1
+171,Did Not Survive,Did Not Survive,0.15297858974504425,Low,Passenger Class,Male,43.0,Adult,6.45,Low,1,Solo,3
+172,Did Not Survive,Did Not Survive,0.3697943586887958,Low,Passenger Class,Male,26.0,Young Adult,13.0,Medium,1,Solo,2
+173,Survived,Survived,0.6871244159275347,Medium,Passenger Class,Female,18.0,Teen,9.35,Medium,2,Small Family,3
+174,Survived,Survived,0.8174850916754262,High,Gender,Female,49.0,Adult,25.9292,High,1,Solo,1
+175,Did Not Survive,Did Not Survive,0.31092112700335306,Low,Passenger Class,Male,26.0,Young Adult,29.0,Very High,3,Small Family,2
+176,Survived,Survived,0.5005210754278111,Medium,Passenger Class,Male,0.83,Child,29.0,Very High,3,Small Family,2
+177,Did Not Survive,Did Not Survive,0.4715235233946443,Medium,Passenger Class,Female,47.0,Adult,7.0,Low,2,Small Family,3
+178,Did Not Survive,Did Not Survive,0.10091989080249239,Low,Passenger Class,Male,61.0,Senior,6.2375,Low,1,Solo,3
+179,Did Not Survive,Did Not Survive,0.3277194749700329,Low,Passenger Class,Male,33.0,Young Adult,12.275,Medium,1,Solo,2
+180,Did Not Survive,Did Not Survive,0.1844224502816524,Low,Passenger Class,Male,27.0,Young Adult,14.4542,High,2,Small Family,3
+181,Did Not Survive,Did Not Survive,0.3884446533030754,Low,Passenger Class,Male,23.0,Young Adult,13.0,Medium,1,Solo,2
+182,Survived,Survived,0.7803096498308861,High,Gender,Female,30.0,Young Adult,13.0,Medium,1,Solo,2
+183,Did Not Survive,Survived,0.5369155928599555,Medium,Age,Male,28.0,Young Adult,26.0,High,1,Solo,1
+184,Survived,Survived,0.6471599828845249,Medium,Gender,Female,45.0,Adult,26.25,High,3,Small Family,2
+185,Did Not Survive,Did Not Survive,0.11501827063865974,Low,Passenger Class,Male,55.5,Adult,8.05,Medium,1,Solo,3
+186,Did Not Survive,Survived,0.6676569068404762,Medium,Passenger Class,Female,24.0,Young Adult,7.75,Low,1,Solo,3
+187,Did Not Survive,Did Not Survive,0.20741583941166775,Low,Passenger Class,Male,29.0,Young Adult,7.925,Medium,1,Solo,3
+188,Survived,Survived,0.6498742629748128,Medium,Passenger Class,Female,27.0,Young Adult,7.925,Medium,1,Solo,3
+189,Survived,Survived,0.7519394747669335,High,Gender,Female,36.0,Adult,13.0,Medium,1,Solo,2
+190,Did Not Survive,Did Not Survive,0.18065547287923045,Low,Passenger Class,Male,28.0,Young Adult,16.1,High,2,Small Family,3
+191,Survived,Did Not Survive,0.21760999714134646,Low,Passenger Class,Male,28.0,Young Adult,56.4958,Very High,1,Solo,3
+192,Did Not Survive,Did Not Survive,0.1195945979484297,Low,Passenger Class,Male,11.0,Child,46.9,Very High,8,Large Family,3
+193,Did Not Survive,Did Not Survive,0.2162314819277234,Low,Passenger Class,Male,27.0,Young Adult,7.8958,Low,1,Solo,3
+194,Did Not Survive,Did Not Survive,0.15619526582768314,Low,Age,Male,60.0,Adult,39.0,Very High,3,Small Family,2
+195,Did Not Survive,Did Not Survive,0.3460700142683253,Low,Age,Male,44.0,Adult,90.0,Very High,3,Small Family,1
+196,Survived,Did Not Survive,0.4448080279978665,Medium,Age,Male,42.0,Adult,26.2875,High,1,Solo,1
+197,Did Not Survive,Did Not Survive,0.19075479827767658,Low,Passenger Class,Male,33.0,Young Adult,9.5,Medium,1,Solo,3

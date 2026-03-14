@@ -32,3 +32,13 @@ def save_processed_data(df, filename=None):
 
     logger.success(f"Processed data saved to {output_path}")
     return output_path
+
+def load_processed_data(filename):
+    # logger.info("Starting dataset processing")
+
+    if not filename:
+        return "File name must be provided to load processed data."
+
+    input_path = PROCESSED_DATA_DIR / filename
+
+    return pd.read_csv(input_path)

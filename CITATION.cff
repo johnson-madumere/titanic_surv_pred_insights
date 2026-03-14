@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "Titanic Survival Analysis and Prediction"
+type: software
+version: "1.0.0"
+date-released: 2026-03-14
+license: "See LICENSE file"
+abstract: >
+  A CRISP-DM based data science project for Titanic survival prediction,
+  focusing on interpretable modeling, fairness/error analysis, and reproducible outputs.
+authors:
+  - family-names: "Madumere"
+    given-names: "Abuchi Johnson"
+    email: "583339@student.saxion.nl"
+repository-code: "https://github.com/johnson-madumere/titanic_surv_pred_insights"
+url: "https://github.com/johnson-madumere/titanic_surv_pred_insights"
+keywords:
+  - "Titanic"
+  - "machine learning"
+  - "classification"
+  - "CRISP-DM"
+  - "interpretability"
+  - "fairness"
+  - "reproducibility"
