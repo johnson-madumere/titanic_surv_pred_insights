@@ -389,9 +389,9 @@ data/processed/
 - **Prediction Certainty and Confidence Report:** - Shows how confident the model is in its predictions based on probability scores.
 - **Group Fairness and Accuracy Analysis:** - Compares model performance across groups such as gender or passenger class.
 - **Error Breakdown Analysis:** - Shows where the model makes mistakes, including false positives, false negatives, and misclassified passengers.
-- **Core Prediction Table:** - Displays actual survival results, predicted outcomes, and the main reason for the prediction.
-- **Enriched Prediction Table:** - Combines passenger information with prediction results and probability values.
-- **Smart Output Table:** - Provides a short and simple summary of survival likelihood and the key reason behind the prediction.
+- **Core Prediction Insight Table:** - Displays actual survival results, predicted outcomes, and the main reason for the prediction.
+- **Enriched Prediction Insight Table:** - Combines passenger information with prediction results and probability values.
+- **Smart Output Insight Table:** - Provides a short and simple summary of survival likelihood and the key reason behind the prediction.
 - **Survival Probability:** - The predicted probability that a passenger survived.
 - **Main Reason:** - The most important feature (primary driver) that influenced the prediction.
 - **CRISP-DM:** - Cross-Industry Standard Process for Data Mining
@@ -419,6 +419,7 @@ data/processed/
 - **Overfitting** – A situation where a model learns the training data too closely, including noise or random patterns, which causes poor performance on new data.
 - **L1 Regularization (Lasso)** – A regularization method that adds a penalty based on the absolute values of model coefficients.
 - **L2 Regularization (Ridge)** – A regularization method that adds a penalty based on the squared values of model coefficients.
+- **GridSearchCV with 5-fold cross-validation** - Tests different model parameter combinations using five training splits to select the best-performing configuration.
 - **Hyperparameter** – A configuration setting chosen before training a model, such as the regularization strength in logistic regression. Hyperparameters influence how the model learns from data.
 
 ---
