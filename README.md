@@ -171,6 +171,30 @@ winget install -e --id Anaconda.Miniconda3
 
 After installing Miniconda/Anaconda, run `conda init` **once** for your shell, then restart terminal.
 
+Important:
+
+- If `conda init powershell` prints **`No action taken.`**, that is normal. It means initialization was already done before.
+- `conda activate titanic-surv` works only **after** the environment exists.
+
+Use this clean check/create/activate flow first (Windows PowerShell):
+
+```powershell
+conda --version
+conda init powershell
+# If output says "No action taken.", continue.
+
+# close and reopen terminal, then check if environment already exists
+conda env list
+
+# create it only if missing
+conda env create -f environment.yml
+
+# activate
+conda activate titanic-surv
+```
+
+If you get `EnvironmentNameNotFound`, run `conda env create -f environment.yml` and then activate again.
+
 #### Windows (PowerShell)
 
 ```powershell
@@ -219,6 +243,12 @@ conda activate titanic-surv
 > If `conda` is not recognized, restart terminal first.  
 > If still failing, open **Anaconda Prompt** (Windows) and run the same commands there.
 
+Quick environment check command (all OS/shells):
+
+```powershell
+conda env list
+```
+
 <!-- ...existing code... -->
 
 ### 5.3 Option A: Install project with `requirements.txt` (pip + venv)
@@ -234,7 +264,12 @@ pip install -e .
 ### 5.4 Option B: Install project with `environment.yml` (Conda)
 
 ```powershell
+# create environment from file (skip if it already exists)
 conda env create -f environment.yml
+
+# if already created before, update it instead
+# conda env update -f environment.yml --prune
+
 conda activate titanic-surv
 ```
 

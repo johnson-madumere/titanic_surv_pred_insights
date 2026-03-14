@@ -1,4 +1,4 @@
-name: titanic_surv_pred_insights
+name: titanic-surv
 channels:
   - conda-forge
 dependencies:
