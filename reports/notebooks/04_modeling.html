@@ -7802,7 +7802,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Modeling-Phase">Modeling Phase<a class="anchor-link" href="#Modeling-Phase">¶</a></h3><h4 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h4><p>In this phase, I build machine learning models that predict whether a Titanic passenger survived. The goal is not only to generate predictions, but also to understand which factors influence survival.</p>
+<h2 id="Modeling-Phase">Modeling Phase<a class="anchor-link" href="#Modeling-Phase">¶</a></h2><h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h3><hr/>
+<p>In this phase, I build machine learning models that predict whether a Titanic passenger survived. The goal is not only to generate predictions, but also to understand which factors influence survival.</p>
 <p>Following the CRISP-DM [2] framework, this phase includes the following steps:</p>
 <ul>
 <li>Select appropriate modeling techniques</li>
@@ -7855,7 +7856,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="1.-Select-Modelling-Technique">1. Select Modelling Technique<a class="anchor-link" href="#1.-Select-Modelling-Technique">¶</a></h4><hr/>
+<h3 id="1.-Select-Modelling-Technique">1. Select Modelling Technique<a class="anchor-link" href="#1.-Select-Modelling-Technique">¶</a></h3><hr/>
 <p>My goal here is to choose models that can predict survival and are still easy to interpret.</p>
 <p>Since the target variable Survived is binary (0 = did not survive, 1 = survived), I focus on models that are commonly used for classification problems.</p>
 <p><strong>Candidate Models</strong></p>
@@ -7878,13 +7879,30 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a0d191d1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="1.1-Justification-for-Model-Selection-from-Related-Work">1.1 Justification for Model Selection from Related Work<a class="anchor-link" href="#1.1-Justification-for-Model-Selection-from-Related-Work">¶</a></h4><p>In this project, I selected <strong>Logistic Regression</strong>, <strong>Decision Tree</strong>, and <strong>Random Forest</strong> because recent Titanic studies repeatedly use these models and report useful performance with similar passenger features.</p>
+<ul>
+<li><strong>Huang (2024)</strong> shows that Random Forest can perform strongly for Titanic survival prediction [7].</li>
+<li><strong>Devamane (2024)</strong> uses Logistic Regression and Random Forest with key features such as age, sex, and passenger class, which is consistent with this project design [8].</li>
+<li><strong>Singh and Nagpal</strong> compare multiple classifiers, including Logistic Regression and Decision Tree, and support a compare-first approach instead of choosing one model too early [9].</li>
+</ul>
+<p>Based on this, my model setup follows two goals at the same time:</p>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=42065200">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="2.-Generate-Test-Design">2. Generate Test Design<a class="anchor-link" href="#2.-Generate-Test-Design">¶</a></h4><hr/>
+<h3 id="2.-Generate-Test-Design">2. Generate Test Design<a class="anchor-link" href="#2.-Generate-Test-Design">¶</a></h3><hr/>
 <p>Before training the models, I define a consistent experimental setup. This ensures that each model is trained and evaluated under the same conditions.</p>
 <p>The dataset was already divided during the Data Preparation phase into three parts:</p>
 <ul>
@@ -7899,7 +7917,7 @@ a.anchor-link {
 <li>I store the prediction outputs for the next phase.</li>
 </ul>
 <p>I will not select the best model or tune decision thresholds here. That analysis will happen in Phase 5 – Evaluation.</p>
-<h5 id="Feature-Setup">Feature Setup<a class="anchor-link" href="#Feature-Setup">¶</a></h5><p>The models use the following prepared features:</p>
+<h4 id="Feature-Setup">Feature Setup<a class="anchor-link" href="#Feature-Setup">¶</a></h4><p>The models use the following prepared features:</p>
 <ul>
 <li>Age</li>
 <li>Fare</li>
@@ -7990,7 +8008,7 @@ Validation shape: (196, 7)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="3.-Building-the-Model">3. Building the Model<a class="anchor-link" href="#3.-Building-the-Model">¶</a></h4><hr/>
+<h3 id="3.-Building-the-Model">3. Building the Model<a class="anchor-link" href="#3.-Building-the-Model">¶</a></h3><hr/>
 <p>In this step, I train the three candidate models using the same dataset and feature set. This ensures that the comparison between models is fair.</p>
 <p>The models trained are:</p>
 <ul>
@@ -8009,7 +8027,7 @@ Validation shape: (196, 7)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-1:-Import-model-libraries">Step 1: Import model libraries<a class="anchor-link" href="#Step-1:-Import-model-libraries">¶</a></h5><p>Import the necessary libraries from sklearn so I can build and train all three models.</p>
+<h4 id="Step-1:-Import-model-libraries">Step 1: Import model libraries<a class="anchor-link" href="#Step-1:-Import-model-libraries">¶</a></h4><p>Import the necessary libraries from sklearn so I can build and train all three models.</p>
 </div>
 </div>
 </div>
@@ -8036,7 +8054,7 @@ Validation shape: (196, 7)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-2:-Train-all-candidate-models">Step 2: Train all candidate models<a class="anchor-link" href="#Step-2:-Train-all-candidate-models">¶</a></h5><p>To handle class imbalance, I set the parameter:</p>
+<h4 id="Step-2:-Train-all-candidate-models">Step 2: Train all candidate models<a class="anchor-link" href="#Step-2:-Train-all-candidate-models">¶</a></h4><p>To handle class imbalance, I set the parameter:</p>
 <div class="highlight"><pre><span></span><span class="n">class_weight</span> <span class="p">=</span> <span class="s2">"balanced"</span>
 </pre></div>
 <p>This tells the algorithm to give more importance to the minority class (survivors), which helps reduce bias toward the majority class [1].</p>
@@ -8113,7 +8131,7 @@ Random Forest training completed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-3:-Training-Results">Step 3: Training Results<a class="anchor-link" href="#Step-3:-Training-Results">¶</a></h5><p>All three models trained successfully using:</p>
+<h4 id="Step-3:-Training-Results">Step 3: Training Results<a class="anchor-link" href="#Step-3:-Training-Results">¶</a></h4><p>All three models trained successfully using:</p>
 <ul>
 <li>the same training dataset</li>
 <li>the same target variable (Survived)</li>
@@ -8132,7 +8150,7 @@ Random Forest training completed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-4:-Regularization-in-Logistic-Regression">Step 4: Regularization in Logistic Regression<a class="anchor-link" href="#Step-4:-Regularization-in-Logistic-Regression">¶</a></h5><p>Logistic Regression includes regularization by default.</p>
+<h4 id="Step-4:-Regularization-in-Logistic-Regression">Step 4: Regularization in Logistic Regression<a class="anchor-link" href="#Step-4:-Regularization-in-Logistic-Regression">¶</a></h4><p>Logistic Regression includes regularization by default.</p>
 <p>Regularization helps prevent overfitting by penalizing very large model coefficients.</p>
 <p>In this implementation:</p>
 <ul>
@@ -8156,7 +8174,7 @@ Random Forest training completed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="4.-Prepare-model-outputs-for-Evaluation-phase">4. Prepare model outputs for Evaluation phase<a class="anchor-link" href="#4.-Prepare-model-outputs-for-Evaluation-phase">¶</a></h4><hr/>
+<h3 id="4.-Prepare-model-outputs-for-Evaluation-phase">4. Prepare model outputs for Evaluation phase<a class="anchor-link" href="#4.-Prepare-model-outputs-for-Evaluation-phase">¶</a></h3><hr/>
 <p>After training the models, I prepare their outputs so they can be analyzed in the next phase.</p>
 <p>For each model, I store:</p>
 <ul>
@@ -8308,7 +8326,7 @@ Random Forest training completed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="5.-Save-trained-models">5. Save trained models<a class="anchor-link" href="#5.-Save-trained-models">¶</a></h4><hr/>
+<h3 id="5.-Save-trained-models">5. Save trained models<a class="anchor-link" href="#5.-Save-trained-models">¶</a></h3><hr/>
 <p>Finally, I save the trained models so they can be reused later without retraining.</p>
 <p>Each model is saved as a .pkl file, and the validation prediction outputs are also saved.</p>
 <p>Saving these files supports reproducibility because the same models and prediction results can be loaded again in the evaluation phase.</p>
@@ -8368,6 +8386,9 @@ Random Forest training completed.
 <p>[4] G. James, D. Witten, T. Hastie, and R. Tibshirani, <em>An Introduction to Statistical Learning: With Applications in R</em>, 2nd ed. New York, NY, USA: Springer, 2021.</p>
 <p>[5] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone, <em>Classification and Regression Trees</em>. Belmont, CA, USA: Wadsworth, 1984.</p>
 <p>[6] L. Breiman, "Random forests," <em>Machine Learning</em>, vol. 45, no. 1, pp. 5-32, 2001.</p>
+<p>[7] Y. Huang, "Comparative analysis of models based on Titanic survival prediction," 2024.</p>
+<p>[8] A. Devamane, "Titanic survivors prediction analysis using machine learning," 2024.</p>
+<p>[9] A. Singh and A. Nagpal, "Exploratory data analysis and machine learning on Titanic data."</p>
 </div>
 </div>
 </div>

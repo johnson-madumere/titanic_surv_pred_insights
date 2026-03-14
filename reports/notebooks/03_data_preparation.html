@@ -7802,7 +7802,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Data-Preparation">Data Preparation<a class="anchor-link" href="#Data-Preparation">¶</a></h3><h4 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h4><p>In this phase, I prepare the dataset so it can be used for machine learning. During the previous Data Understanding phase, I identified several issues that needed to be addressed before modeling.</p>
+<h2 id="Data-Preparation">Data Preparation<a class="anchor-link" href="#Data-Preparation">¶</a></h2><h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h3><hr/>
+<p>In this phase, I prepare the dataset so it can be used for machine learning. During the previous Data Understanding phase, I identified several issues that needed to be addressed before modeling.</p>
 <p>Some of the main issues included:</p>
 <ul>
 <li>Inconsistent column names such as 2urvived and sibsp</li>
@@ -7832,7 +7833,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Alignment-with-Data-Understanding">Alignment with Data Understanding<a class="anchor-link" href="#Alignment-with-Data-Understanding">¶</a></h5><p>The preparation steps in this phase are based on findings from the previous analysis.</p>
+<h4 id="Alignment-with-Data-Understanding">Alignment with Data Understanding<a class="anchor-link" href="#Alignment-with-Data-Understanding">¶</a></h4><p>The preparation steps in this phase are based on findings from the previous analysis.</p>
 <p>From the Data Understanding phase, I observed that:</p>
 <ul>
 <li>Embarked contains a small number of missing values.</li>
@@ -8067,7 +8068,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Research-Questions">Research Questions<a class="anchor-link" href="#Research-Questions">¶</a></h5><p>The data preparation process is guided by several research questions that were identified during the exploration phase. [3], [4]</p>
+<h3 id="Research-Questions">Research Questions<a class="anchor-link" href="#Research-Questions">¶</a></h3><hr/>
+<p>The data preparation process is guided by several research questions that were identified during the exploration phase. [3], [4]</p>
 <ol>
 <li><strong>RQ1</strong> – Gender Effect:
 Does passenger gender influence survival probability, and should gender be encoded as a predictive feature?</li>
@@ -8091,7 +8093,8 @@ Does traveling alone versus with family influence survival outcomes?</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="1.-Select-Relevant-Data">1. Select Relevant Data<a class="anchor-link" href="#1.-Select-Relevant-Data">¶</a></h4><p>The first step in data preparation is to select only the variables that are relevant to the project goal.</p>
+<h3 id="1.-Select-Relevant-Data">1. Select Relevant Data<a class="anchor-link" href="#1.-Select-Relevant-Data">¶</a></h3><hr/>
+<p>The first step in data preparation is to select only the variables that are relevant to the project goal.</p>
 <p>The raw dataset contains several columns that are not useful for survival prediction. Some columns begin with “zero” and do not provide meaningful information.</p>
 <p>To keep the analysis focused and reduce noise in the model, I select the following key variables:</p>
 <ul>
@@ -8176,7 +8179,8 @@ memory usage: 92.2 KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="2.-Clean-and-Correct-Errors">2. Clean and Correct Errors<a class="anchor-link" href="#2.-Clean-and-Correct-Errors">¶</a></h4><p>The next step is to clean the dataset so that it is consistent and reliable.</p>
+<h3 id="2.-Clean-and-Correct-Errors">2. Clean and Correct Errors<a class="anchor-link" href="#2.-Clean-and-Correct-Errors">¶</a></h3><hr/>
+<p>The next step is to clean the dataset so that it is consistent and reliable.</p>
 <p>This process includes:</p>
 <ul>
 <li>Standardizing column names</li>
@@ -8217,7 +8221,7 @@ memory usage: 92.2 KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-1:-Standardizing-column-names">Step 1: Standardizing column names<a class="anchor-link" href="#Step-1:-Standardizing-column-names">¶</a></h5>
+<h4 id="Step-1:-Standardizing-column-names">Step 1: Standardizing column names<a class="anchor-link" href="#Step-1:-Standardizing-column-names">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8244,7 +8248,7 @@ memory usage: 92.2 KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-2:-Fixing-spelling-issues">Step 2: Fixing spelling issues<a class="anchor-link" href="#Step-2:-Fixing-spelling-issues">¶</a></h5>
+<h4 id="Step-2:-Fixing-spelling-issues">Step 2: Fixing spelling issues<a class="anchor-link" href="#Step-2:-Fixing-spelling-issues">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8291,7 +8295,7 @@ memory usage: 92.2 KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-3:-Checking-for-incorrect-or-invalid-values">Step 3: Checking for incorrect or invalid values<a class="anchor-link" href="#Step-3:-Checking-for-incorrect-or-invalid-values">¶</a></h5>
+<h4 id="Step-3:-Checking-for-incorrect-or-invalid-values">Step 3: Checking for incorrect or invalid values<a class="anchor-link" href="#Step-3:-Checking-for-incorrect-or-invalid-values">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8410,7 +8414,7 @@ Rows with issues found: 0
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-4:-Handling-missing-values">Step 4: Handling missing values<a class="anchor-link" href="#Step-4:-Handling-missing-values">¶</a></h5><p>Before filling missing values, I first check how many missing values exist in each column. This helps me justify the imputation strategy.</p>
+<h4 id="Step-4:-Handling-missing-values">Step 4: Handling missing values<a class="anchor-link" href="#Step-4:-Handling-missing-values">¶</a></h4><p>Before filling missing values, I first check how many missing values exist in each column. This helps me justify the imputation strategy.</p>
 </div>
 </div>
 </div>
@@ -8536,7 +8540,7 @@ memory usage: 92.2+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-5:-Converting-variables-to-the-correct-data-types">Step 5: Converting variables to the correct data types<a class="anchor-link" href="#Step-5:-Converting-variables-to-the-correct-data-types">¶</a></h5>
+<h4 id="Step-5:-Converting-variables-to-the-correct-data-types">Step 5: Converting variables to the correct data types<a class="anchor-link" href="#Step-5:-Converting-variables-to-the-correct-data-types">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8590,7 +8594,7 @@ dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-6:-Performing-a-final-quality-check">Step 6: Performing a final quality check<a class="anchor-link" href="#Step-6:-Performing-a-final-quality-check">¶</a></h5>
+<h4 id="Step-6:-Performing-a-final-quality-check">Step 6: Performing a final quality check<a class="anchor-link" href="#Step-6:-Performing-a-final-quality-check">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8649,7 +8653,8 @@ memory usage: 92.2+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="3.-Construct-New-Features">3. Construct New Features<a class="anchor-link" href="#3.-Construct-New-Features">¶</a></h4><p>After cleaning the dataset, I create several new features that help capture meaningful patterns in the data.</p>
+<h3 id="3.-Construct-New-Features">3. Construct New Features<a class="anchor-link" href="#3.-Construct-New-Features">¶</a></h3><hr/>
+<p>After cleaning the dataset, I create several new features that help capture meaningful patterns in the data.</p>
 <p>Feature engineering is widely used in machine learning to transform raw data into more informative variables [8].</p>
 <p>Based on the previous analysis, I construct the following features:</p>
 <ul>
@@ -8671,7 +8676,7 @@ memory usage: 92.2+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Decision-Trade-offs-(Construct-Data)">Decision Trade-offs (Construct Data)<a class="anchor-link" href="#Decision-Trade-offs-(Construct-Data)">¶</a></h5><p>Feature construction involves some trade-offs.</p>
+<h4 id="Decision-Trade-offs-(Construct-Data)">Decision Trade-offs (Construct Data)<a class="anchor-link" href="#Decision-Trade-offs-(Construct-Data)">¶</a></h4><p>Feature construction involves some trade-offs.</p>
 <p>Using grouped features such as Age_Group and Fare_Bracket improves interpretability but may reduce some detailed numeric information.</p>
 <p>For example, grouping fares into categories helps highlight economic differences between passengers, but small variations in ticket price may be lost.</p>
 <p>Despite this limitation, grouped features are useful for explaining patterns in the dataset and communicating insights clearly.</p>
@@ -8685,7 +8690,7 @@ memory usage: 92.2+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-1:-Construct-%22Family_Size%22-Feature">Step 1: Construct "Family_Size" Feature<a class="anchor-link" href="#Step-1:-Construct-%22Family_Size%22-Feature">¶</a></h5>
+<h4 id="Step-1:-Construct-%22Family_Size%22-Feature">Step 1: Construct "Family_Size" Feature<a class="anchor-link" href="#Step-1:-Construct-%22Family_Size%22-Feature">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8782,7 +8787,7 @@ memory usage: 92.2+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-2:-Construct-%22Is-Alone%22-Feature">Step 2: Construct "Is Alone" Feature<a class="anchor-link" href="#Step-2:-Construct-%22Is-Alone%22-Feature">¶</a></h5>
+<h4 id="Step-2:-Construct-%22Is-Alone%22-Feature">Step 2: Construct "Is Alone" Feature<a class="anchor-link" href="#Step-2:-Construct-%22Is-Alone%22-Feature">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8872,7 +8877,7 @@ memory usage: 92.2+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-3:-Construct-%22Fare-Bracket%22-Feature">Step 3: Construct "Fare Bracket" Feature<a class="anchor-link" href="#Step-3:-Construct-%22Fare-Bracket%22-Feature">¶</a></h5>
+<h4 id="Step-3:-Construct-%22Fare-Bracket%22-Feature">Step 3: Construct "Fare Bracket" Feature<a class="anchor-link" href="#Step-3:-Construct-%22Fare-Bracket%22-Feature">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8922,7 +8927,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-4:-Construct-%22Passenger-Class-Labels%22-Feature">Step 4: Construct "Passenger Class Labels" Feature<a class="anchor-link" href="#Step-4:-Construct-%22Passenger-Class-Labels%22-Feature">¶</a></h5>
+<h4 id="Step-4:-Construct-%22Passenger-Class-Labels%22-Feature">Step 4: Construct "Passenger Class Labels" Feature<a class="anchor-link" href="#Step-4:-Construct-%22Passenger-Class-Labels%22-Feature">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9016,7 +9021,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-5:-Construct-%22Age-Group%22-Feature">Step 5: Construct "Age Group" Feature<a class="anchor-link" href="#Step-5:-Construct-%22Age-Group%22-Feature">¶</a></h5>
+<h4 id="Step-5:-Construct-%22Age-Group%22-Feature">Step 5: Construct "Age Group" Feature<a class="anchor-link" href="#Step-5:-Construct-%22Age-Group%22-Feature">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9071,7 +9076,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-6:-Final-Check-of-Constructed-Features">Step 6: Final Check of Constructed Features<a class="anchor-link" href="#Step-6:-Final-Check-of-Constructed-Features">¶</a></h5>
+<h4 id="Step-6:-Final-Check-of-Constructed-Features">Step 6: Final Check of Constructed Features<a class="anchor-link" href="#Step-6:-Final-Check-of-Constructed-Features">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9130,7 +9135,8 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="4.-Integrate-Data">4. Integrate Data<a class="anchor-link" href="#4.-Integrate-Data">¶</a></h4><p>Data integration normally involves combining multiple datasets from different sources.</p>
+<h3 id="4.-Integrate-Data">4. Integrate Data<a class="anchor-link" href="#4.-Integrate-Data">¶</a></h3><hr/>
+<p>Data integration normally involves combining multiple datasets from different sources.</p>
 <p>In this project, the Titanic dataset already contains all the variables required for the analysis.</p>
 <p>After reviewing the dataset, I found that:</p>
 <ul>
@@ -9150,7 +9156,7 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Confirm-dataset-shape-after-preparation">Confirm dataset shape after preparation<a class="anchor-link" href="#Confirm-dataset-shape-after-preparation">¶</a></h5>
+<h4 id="Confirm-dataset-shape-after-preparation">Confirm dataset shape after preparation<a class="anchor-link" href="#Confirm-dataset-shape-after-preparation">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9187,7 +9193,7 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Preview-final-dataset-columns">Preview final dataset columns<a class="anchor-link" href="#Preview-final-dataset-columns">¶</a></h5>
+<h4 id="Preview-final-dataset-columns">Preview final dataset columns<a class="anchor-link" href="#Preview-final-dataset-columns">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9237,7 +9243,7 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Check-if-PassengerId-is-Unique">Check if PassengerId is Unique<a class="anchor-link" href="#Check-if-PassengerId-is-Unique">¶</a></h5>
+<h4 id="Check-if-PassengerId-is-Unique">Check if PassengerId is Unique<a class="anchor-link" href="#Check-if-PassengerId-is-Unique">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9279,7 +9285,8 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="5.-Format-Data">5. Format Data<a class="anchor-link" href="#5.-Format-Data">¶</a></h4><p>Before training machine learning models, the dataset must be converted into a format that algorithms can process.</p>
+<h3 id="5.-Format-Data">5. Format Data<a class="anchor-link" href="#5.-Format-Data">¶</a></h3><hr/>
+<p>Before training machine learning models, the dataset must be converted into a format that algorithms can process.</p>
 <p>Machine learning models cannot work directly with text labels. Therefore, categorical variables must be encoded as numeric values.</p>
 <p>The formatting process includes:</p>
 <ul>
@@ -9305,7 +9312,7 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-1:-Copy-dataset-to-avoid-modifying-original">Step 1: Copy dataset to avoid modifying original<a class="anchor-link" href="#Step-1:-Copy-dataset-to-avoid-modifying-original">¶</a></h5>
+<h4 id="Step-1:-Copy-dataset-to-avoid-modifying-original">Step 1: Copy dataset to avoid modifying original<a class="anchor-link" href="#Step-1:-Copy-dataset-to-avoid-modifying-original">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9465,7 +9472,7 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-2:-Correct-Data-Types">Step 2: Correct Data Types<a class="anchor-link" href="#Step-2:-Correct-Data-Types">¶</a></h5><ul>
+<h4 id="Step-2:-Correct-Data-Types">Step 2: Correct Data Types<a class="anchor-link" href="#Step-2:-Correct-Data-Types">¶</a></h4><ul>
 <li>Ensure numeric columns are of type <code>int</code> or <code>float</code>.</li>
 <li>Ensure categorical columns are <code>category</code> or encoded properly.</li>
 </ul>
@@ -9519,7 +9526,7 @@ memory usage: 125.8+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-3:-Encode-Categorical-Variables">Step 3: Encode Categorical Variables<a class="anchor-link" href="#Step-3:-Encode-Categorical-Variables">¶</a></h5><ul>
+<h4 id="Step-3:-Encode-Categorical-Variables">Step 3: Encode Categorical Variables<a class="anchor-link" href="#Step-3:-Encode-Categorical-Variables">¶</a></h4><ul>
 <li>Replace an actual category for label - Sex (male"0"/female"1")</li>
 <li>Convert text labels (like "Sex" or "Pclass_Label") to numeric codes if needed.</li>
 </ul>
@@ -9773,7 +9780,7 @@ Decision support: Embarked has moderate variation; reassess exclusion during mod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-4:-Interpretation:-Embarked-Signal-Evidence">Step 4: Interpretation: Embarked Signal Evidence<a class="anchor-link" href="#Step-4:-Interpretation:-Embarked-Signal-Evidence">¶</a></h5><p>This summary helps me decide whether <code>Embarked_Code</code> should be part of baseline model features.</p>
+<h4 id="Step-4:-Interpretation:-Embarked-Signal-Evidence">Step 4: Interpretation: Embarked Signal Evidence<a class="anchor-link" href="#Step-4:-Interpretation:-Embarked-Signal-Evidence">¶</a></h4><p>This summary helps me decide whether <code>Embarked_Code</code> should be part of baseline model features.</p>
 <p>In this run, <code>Embarked</code> still shows some variation, so I will keep it excluded for the baseline model but re-test it later during modeling to confirm whether it helps.</p>
 </div>
 </div>
@@ -9785,7 +9792,7 @@ Decision support: Embarked has moderate variation; reassess exclusion during mod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-5:-Ensure-Target-Variable-is-Correct">Step 5: Ensure Target Variable is Correct<a class="anchor-link" href="#Step-5:-Ensure-Target-Variable-is-Correct">¶</a></h5>
+<h4 id="Step-5:-Ensure-Target-Variable-is-Correct">Step 5: Ensure Target Variable is Correct<a class="anchor-link" href="#Step-5:-Ensure-Target-Variable-is-Correct">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9810,7 +9817,7 @@ Decision support: Embarked has moderate variation; reassess exclusion during mod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-6:-Check-final-dataset-info">Step 6: Check final dataset info<a class="anchor-link" href="#Step-6:-Check-final-dataset-info">¶</a></h5>
+<h4 id="Step-6:-Check-final-dataset-info">Step 6: Check final dataset info<a class="anchor-link" href="#Step-6:-Check-final-dataset-info">¶</a></h4>
 </div>
 </div>
 </div>
@@ -9982,7 +9989,7 @@ Decision support: Embarked has moderate variation; reassess exclusion during mod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-7:-Visualize-Final-dataset">Step 7: Visualize Final dataset<a class="anchor-link" href="#Step-7:-Visualize-Final-dataset">¶</a></h5><p>In this step, I visualize the prepared dataset to see how survival rates vary across key features. I create charts showing survival by Pclass_Code, Sex_Code, Age_Group, Fare_Bracket, and Is_Alone. These charts help confirm whether the patterns found earlier are still visible after data understanding.</p>
+<h4 id="Step-7:-Visualize-Final-dataset">Step 7: Visualize Final dataset<a class="anchor-link" href="#Step-7:-Visualize-Final-dataset">¶</a></h4><p>In this step, I visualize the prepared dataset to see how survival rates vary across key features. I create charts showing survival by Pclass_Code, Sex_Code, Age_Group, Fare_Bracket, and Is_Alone. These charts help confirm whether the patterns found earlier are still visible after data understanding.</p>
 <p><strong>Insight:</strong></p>
 <ul>
 <li>The chart shows that female passengers (1) have a much higher survival rate than male passengers (0). This suggests that gender is a strong predictor and should remain in the final feature set.</li>
@@ -10124,7 +10131,7 @@ Name: Survived, dtype: float64
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <!-- ...existing code... -->
-<h5 id="Step-8:-Normalization-Decision">Step 8: Normalization Decision<a class="anchor-link" href="#Step-8:-Normalization-Decision">¶</a></h5><p>Normalization is not applied in this baseline workflow.</p>
+<h4 id="Step-8:-Normalization-Decision">Step 8: Normalization Decision<a class="anchor-link" href="#Step-8:-Normalization-Decision">¶</a></h4><p>Normalization is not applied in this baseline workflow.</p>
 <p>Several features such as Sex_Code, Is_Alone, and Pclass_Code already have small numeric ranges. Scaling these variables would not meaningfully change the model results.</p>
 <p>Tree-based models such as Decision Trees and Random Forests are also insensitive to feature scale because they rely on threshold splits rather than distance calculations [1].</p>
 <p>For logistic regression, feature scaling can sometimes improve performance. However, in this project I already grouped Age and Fare into categorical features, which reduces the scale difference between variables.</p>
@@ -10139,7 +10146,8 @@ Name: Survived, dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="6.-Split-Dataset">6. Split Dataset<a class="anchor-link" href="#6.-Split-Dataset">¶</a></h4><p>After completing data preparation, I split the dataset into training, validation, and test sets.</p>
+<h3 id="6.-Split-Dataset">6. Split Dataset<a class="anchor-link" href="#6.-Split-Dataset">¶</a></h3><hr/>
+<p>After completing data preparation, I split the dataset into training, validation, and test sets.</p>
 <p>This step ensures that model evaluation is fair and unbiased.</p>
 <p>The dataset is divided as follows:</p>
 <ul>
@@ -10195,7 +10203,7 @@ Name: Survived, dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-1:-Split-into-training-(70%25)-and-temp-(30%25-for-validation-+-test)">Step 1: Split into training (70%) and temp (30% for validation + test)<a class="anchor-link" href="#Step-1:-Split-into-training-(70%25)-and-temp-(30%25-for-validation-+-test)">¶</a></h5>
+<h4 id="Step-1:-Split-into-training-(70%25)-and-temp-(30%25-for-validation-+-test)">Step 1: Split into training (70%) and temp (30% for validation + test)<a class="anchor-link" href="#Step-1:-Split-into-training-(70%25)-and-temp-(30%25-for-validation-+-test)">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10222,7 +10230,7 @@ Name: Survived, dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-2:-Split-temp-into-validation-(15%25)-and-test-(15%25-of-original)">Step 2: Split temp into validation (15%) and test (15% of original)<a class="anchor-link" href="#Step-2:-Split-temp-into-validation-(15%25)-and-test-(15%25-of-original)">¶</a></h5>
+<h4 id="Step-2:-Split-temp-into-validation-(15%25)-and-test-(15%25-of-original)">Step 2: Split temp into validation (15%) and test (15% of original)<a class="anchor-link" href="#Step-2:-Split-temp-into-validation-(15%25)-and-test-(15%25-of-original)">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10307,7 +10315,7 @@ Stratification ratio check passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-3:-Save-the-processed-dataset">Step 3: Save the processed dataset<a class="anchor-link" href="#Step-3:-Save-the-processed-dataset">¶</a></h5>
+<h4 id="Step-3:-Save-the-processed-dataset">Step 3: Save the processed dataset<a class="anchor-link" href="#Step-3:-Save-the-processed-dataset">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10358,7 +10366,8 @@ Test set size: 197 samples
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="7.-Pre-Modeling-Validation-Checklist">7. Pre-Modeling Validation Checklist<a class="anchor-link" href="#7.-Pre-Modeling-Validation-Checklist">¶</a></h4><p>Before moving to model development, I verify several conditions:</p>
+<h3 id="7.-Pre-Modeling-Validation-Checklist">7. Pre-Modeling Validation Checklist<a class="anchor-link" href="#7.-Pre-Modeling-Validation-Checklist">¶</a></h3><hr/>
+<p>Before moving to model development, I verify several conditions:</p>
 <ul>
 <li>The target variable exists and is binary.</li>
 <li>All model features are numeric.</li>
@@ -10378,7 +10387,7 @@ Test set size: 197 samples
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-1:-Confirm-Target-Variable-Exists">Step 1: Confirm Target Variable Exists<a class="anchor-link" href="#Step-1:-Confirm-Target-Variable-Exists">¶</a></h5>
+<h4 id="Step-1:-Confirm-Target-Variable-Exists">Step 1: Confirm Target Variable Exists<a class="anchor-link" href="#Step-1:-Confirm-Target-Variable-Exists">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10418,7 +10427,7 @@ Test set size: 197 samples
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-2:-Confirm-Target-Is-Binary-(0-and-1-Only)">Step 2: Confirm Target Is Binary (0 and 1 Only)<a class="anchor-link" href="#Step-2:-Confirm-Target-Is-Binary-(0-and-1-Only)">¶</a></h5>
+<h4 id="Step-2:-Confirm-Target-Is-Binary-(0-and-1-Only)">Step 2: Confirm Target Is Binary (0 and 1 Only)<a class="anchor-link" href="#Step-2:-Confirm-Target-Is-Binary-(0-and-1-Only)">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10463,7 +10472,7 @@ Target variable is correctly binary.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-3:-Confirm-All-Key-Features-Are-Numeric">Step 3: Confirm All Key Features Are Numeric<a class="anchor-link" href="#Step-3:-Confirm-All-Key-Features-Are-Numeric">¶</a></h5>
+<h4 id="Step-3:-Confirm-All-Key-Features-Are-Numeric">Step 3: Confirm All Key Features Are Numeric<a class="anchor-link" href="#Step-3:-Confirm-All-Key-Features-Are-Numeric">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10514,7 +10523,7 @@ Target variable is correctly binary.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-4:-Confirm-Categorical-Variables-Are-Encoded">Step 4: Confirm Categorical Variables Are Encoded<a class="anchor-link" href="#Step-4:-Confirm-Categorical-Variables-Are-Encoded">¶</a></h5><p>If the previous step shows no non-numeric columns, then categorical encoding is confirmed.</p>
+<h4 id="Step-4:-Confirm-Categorical-Variables-Are-Encoded">Step 4: Confirm Categorical Variables Are Encoded<a class="anchor-link" href="#Step-4:-Confirm-Categorical-Variables-Are-Encoded">¶</a></h4><p>If the previous step shows no non-numeric columns, then categorical encoding is confirmed.</p>
 </div>
 </div>
 </div>
@@ -10559,7 +10568,7 @@ dtype: object
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-5:-Check-for-Data-Leakage">Step 5: Check for Data Leakage<a class="anchor-link" href="#Step-5:-Check-for-Data-Leakage">¶</a></h5><p>Data leakage often happens when:</p>
+<h4 id="Step-5:-Check-for-Data-Leakage">Step 5: Check for Data Leakage<a class="anchor-link" href="#Step-5:-Check-for-Data-Leakage">¶</a></h4><p>Data leakage often happens when:</p>
 <ul>
 <li>Target-related information is included in features</li>
 <li>Post-event variables are used</li>
@@ -10617,7 +10626,7 @@ Leakage and feature sanity checks completed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-6:-Ensure-Target-Is-Not-Included-in-Feature-Matrix">Step 6: Ensure Target Is Not Included in Feature Matrix<a class="anchor-link" href="#Step-6:-Ensure-Target-Is-Not-Included-in-Feature-Matrix">¶</a></h5>
+<h4 id="Step-6:-Ensure-Target-Is-Not-Included-in-Feature-Matrix">Step 6: Ensure Target Is Not Included in Feature Matrix<a class="anchor-link" href="#Step-6:-Ensure-Target-Is-Not-Included-in-Feature-Matrix">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10657,7 +10666,7 @@ Leakage and feature sanity checks completed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-7:-Confirm-Dataset-Sizes-(70-/-15-/-15)">Step 7: Confirm Dataset Sizes (70 / 15 / 15)<a class="anchor-link" href="#Step-7:-Confirm-Dataset-Sizes-(70-/-15-/-15)">¶</a></h5>
+<h4 id="Step-7:-Confirm-Dataset-Sizes-(70-/-15-/-15)">Step 7: Confirm Dataset Sizes (70 / 15 / 15)<a class="anchor-link" href="#Step-7:-Confirm-Dataset-Sizes-(70-/-15-/-15)">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10710,7 +10719,7 @@ Dataset split sizes are consistent.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="Step-8:-Confirm-No-Overlap-Between-Datasets">Step 8: Confirm No Overlap Between Datasets<a class="anchor-link" href="#Step-8:-Confirm-No-Overlap-Between-Datasets">¶</a></h5>
+<h4 id="Step-8:-Confirm-No-Overlap-Between-Datasets">Step 8: Confirm No Overlap Between Datasets<a class="anchor-link" href="#Step-8:-Confirm-No-Overlap-Between-Datasets">¶</a></h4>
 </div>
 </div>
 </div>
@@ -10756,7 +10765,8 @@ Dataset split sizes are consistent.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="8.-Clear-Intermediate-Objects">8. Clear Intermediate Objects<a class="anchor-link" href="#8.-Clear-Intermediate-Objects">¶</a></h4><p>After saving the training, validation, and test datasets, I no longer need some of the intermediate variables that were used during preparation and splitting.</p>
+<h3 id="8.-Clear-Intermediate-Objects">8. Clear Intermediate Objects<a class="anchor-link" href="#8.-Clear-Intermediate-Objects">¶</a></h3><hr/>
+<p>After saving the training, validation, and test datasets, I no longer need some of the intermediate variables that were used during preparation and splitting.</p>
 <p>To reduce memory use in the notebook, I delete objects such as temporary feature tables and split helper variables.</p>
 <p>I keep only the final outputs that may still be useful later, such as the saved datasets and any final split tables needed for the next phase.</p>
 </div>
@@ -10793,7 +10803,8 @@ Dataset split sizes are consistent.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><p>[1] G. James, D. Witten, T. Hastie, and R. Tibshirani, <em>An Introduction to Statistical Learning: With Applications in R</em>, 2nd ed. New York, NY, USA: Springer, 2021.</p>
+<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><hr/>
+<p>[1] G. James, D. Witten, T. Hastie, and R. Tibshirani, <em>An Introduction to Statistical Learning: With Applications in R</em>, 2nd ed. New York, NY, USA: Springer, 2021.</p>
 <p>[2] D. B. Rubin, <em>Multiple Imputation for Nonresponse in Surveys</em>. New York, NY, USA: John Wiley &amp; Sons, 1987.</p>
 <p>[3] B. S. Frey, D. A. Savage, and B. Torgler, "Behavior under extreme conditions: The Titanic disaster," <em>Journal of Economic Perspectives</em>, vol. 25, no. 1, pp. 209-222, 2011.</p>
 <p>[4] D. Gleicher, "The Rescue of the Titanic Survivors," <em>Journal of Social History</em>, vol. 40, no. 1, pp. 157-178, 2006.</p>

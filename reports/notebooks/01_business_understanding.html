@@ -7802,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="1.-Determine-Business-Objectives">1. Determine Business Objectives<a class="anchor-link" href="#1.-Determine-Business-Objectives">¶</a></h3>
+<h2 id="Business-Understanding">Business Understanding<a class="anchor-link" href="#Business-Understanding">¶</a></h2><h3 id="1.-Determine-Business-Objectives">1. Determine Business Objectives<a class="anchor-link" href="#1.-Determine-Business-Objectives">¶</a></h3><hr/>
 </div>
 </div>
 </div>
@@ -7832,9 +7832,9 @@ a.anchor-link {
 <li><strong>(A) Prediction Certainty and Confidence Report:</strong> Shows the probability distribution of predictions and checks how reliable they are.</li>
 <li><strong>(B) Group Fairness and Accuracy Analysis:</strong> Compares model performance across groups such as gender and passenger class using metrics like Accuracy, Precision, and Recall.</li>
 <li><strong>(C) Error Breakdown Analysis:</strong> Shows where the model makes mistakes using a confusion matrix and highlights the top misclassified passengers.</li>
-<li><strong>(D) Core Prediction Table:</strong> Displays actual survival outcomes, predicted survival, and the main reason behind each prediction.</li>
-<li><strong>(E) Enriched Prediction Table:</strong> Combines passenger details with prediction results and probabilities.</li>
-<li><strong>(F) Smart Output Table:</strong> Provides a simple summary of survival likelihood and the key factor influencing the prediction.</li>
+<li><strong>(D) Core Prediction Insight Table:</strong> Displays actual survival outcomes, predicted survival, and the main reason behind each prediction.</li>
+<li><strong>(E) Enriched Prediction Insight Table:</strong> Combines passenger details with prediction results and probabilities.</li>
+<li><strong>(F) Smart Output Insight Table:</strong> Provides a simple summary of survival likelihood and the key factor influencing the prediction.</li>
 </ul>
 <p>The main <em><strong>focus:</strong></em> of this project is not only prediction accuracy, but also clear explanations, model confidence, and useful insights[2], [3].</p>
 <p><strong>Functional requirements</strong></p>
@@ -7865,7 +7865,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="2.-Assess-Situation">2. Assess Situation<a class="anchor-link" href="#2.-Assess-Situation">¶</a></h3>
+<h3 id="2.-Assess-Situation">2. Assess Situation<a class="anchor-link" href="#2.-Assess-Situation">¶</a></h3><hr/>
 </div>
 </div>
 </div>
@@ -8075,7 +8075,7 @@ The project focuses on key variables such as passenger class, age, gender, famil
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.-Determine-Data-Mining-Goals">3. Determine Data Mining Goals<a class="anchor-link" href="#3.-Determine-Data-Mining-Goals">¶</a></h3>
+<h3 id="3.-Determine-Data-Mining-Goals">3. Determine Data Mining Goals<a class="anchor-link" href="#3.-Determine-Data-Mining-Goals">¶</a></h3><hr/>
 </div>
 </div>
 </div>
@@ -8138,7 +8138,7 @@ The project focuses on key variables such as passenger class, age, gender, famil
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="4.-Produce-Project-Plan">4. Produce Project Plan<a class="anchor-link" href="#4.-Produce-Project-Plan">¶</a></h3>
+<h3 id="4.-Produce-Project-Plan">4. Produce Project Plan<a class="anchor-link" href="#4.-Produce-Project-Plan">¶</a></h3><hr/>
 </div>
 </div>
 </div>
@@ -8311,14 +8311,22 @@ I’ll only keep models that meet the performance thresholds defined in Section 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Research-&amp;-Related-Work">Research &amp; Related Work<a class="anchor-link" href="#Research-&amp;-Related-Work">¶</a></h3><ul>
-<li>Brief literature/context:<ul>
-<li>Kaggle Titanic competition summaries and top approaches (e.g., feature engineering on title, family size, cabin deck).</li>
-<li>Classic interpretable methods (Logistic Regression) vs tree-based models (Random Forest, XGBoost).</li>
+<h3 id="Research-&amp;-Related-Work">Research &amp; Related Work<a class="anchor-link" href="#Research-&amp;-Related-Work">¶</a></h3><hr/>
+<p>I reviewed several Titanic survival prediction studies to guide my model and evaluation choices.</p>
+<ul>
+<li><strong>Huang (2024)</strong> shows that tree-based ensemble methods, especially Random Forest, can perform strongly on Titanic survival prediction [5].</li>
+<li><strong>Devamane (2024)</strong> uses core features such as age, sex, and passenger class with Logistic Regression and Random Forest, which supports my feature and model setup [6].</li>
+<li><strong>Singh and Nagpal</strong> compare several models (including Logistic Regression and Decision Tree) after EDA, which supports using model comparison instead of selecting one model too early [7].</li>
 </ul>
-</li>
-<li>How this work differs: focus on interpretable prediction insights and human-readable feature impact rather than maximizing leaderboard score.</li>
+<p><strong>How this supports my implementation:</strong></p>
+<ul>
+<li>I selected <strong>Logistic Regression, Decision Tree, and Random Forest</strong> because these are consistently used in related Titanic studies [5], [6], [7].</li>
+<li>I prioritized <strong>age, sex, and passenger class</strong> because they are repeatedly reported as important survival factors [6], [7].</li>
+<li>I planned a <strong>fair comparison setup</strong> (same split, same metrics, threshold tuning) because different studies show that performance can change depending on preprocessing and evaluation choices.</li>
+<li>I kept an <strong>interpretability focus</strong> so results are not only accurate, but also understandable for non-technical readers through clear tables and explanations.</li>
 </ul>
+<p><strong>What this project adds:</strong></p>
+<p>Many Titanic studies mainly rank model accuracy. In this project, I also include calibration checks, group fairness analysis, and interpretable output tables, so the results can be explained clearly and used more responsibly.</p>
 </div>
 </div>
 </div>
@@ -8329,7 +8337,8 @@ I’ll only keep models that meet the performance thresholds defined in Section 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><ul>
+<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><hr/>
+<ul>
 <li><p>[1] Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., &amp; Wirth, R. (2000). CRISP-DM 1.0: Step-by-step data mining guide.</p>
 </li>
 <li><p>[2] B. S. Frey, D. A. Savage, and B. Torgler, "Behavior under extreme conditions: The Titanic disaster," Journal of Economic Perspectives, vol. 25, no. 1, pp. 209–222, 2011.</p>
@@ -8337,6 +8346,12 @@ I’ll only keep models that meet the performance thresholds defined in Section 
 <li><p>[3] D. Gleicher, "The Rescue of the Titanic Survivors," J. Soc. Hist., vol. 40, no. 1, pp. 157–178, 2006.</p>
 </li>
 <li><p>[4] James, G., Witten, D., Hastie, T., &amp; Tibshirani, R. (2021). An introduction to statistical learning (2nd ed.). Springer.</p>
+</li>
+<li><p>[5] Huang, Y. (2024). Comparative analysis of models based on Titanic survival prediction.</p>
+</li>
+<li><p>[6] Devamane, A. (2024). Titanic survivors prediction analysis using machine learning.</p>
+</li>
+<li><p>[7] Singh, A., &amp; Nagpal, A. Exploratory data analysis and machine learning on Titanic data.</p>
 </li>
 </ul>
 </div>

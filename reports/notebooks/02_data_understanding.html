@@ -7802,7 +7802,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h3><p>In this phase, I focus on understanding the Titanic dataset before building any machine learning models. The goal is not just to load the data, but to carefully examine its structure, patterns, and potential issues.</p>
+<h2 id="Data-Understanding">Data Understanding<a class="anchor-link" href="#Data-Understanding">¶</a></h2><h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h3><hr/>
+<p>In this phase, I focus on understanding the Titanic dataset before building any machine learning models. The goal is not just to load the data, but to carefully examine its structure, patterns, and potential issues.</p>
 <p>This step is important because later modeling decisions should be based on what the data actually shows rather than assumptions.</p>
 <p>Following the CRISP-DM framework [1], I organize this phase into four main steps:</p>
 <ol>
@@ -7822,7 +7823,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Research-Questions-&amp;-Hypotheses">Research Questions &amp; Hypotheses<a class="anchor-link" href="#Research-Questions-&amp;-Hypotheses">¶</a></h3><p>Based on historical studies and prior research, I investigate several questions about survival on the Titanic.</p>
+<h3 id="Research-Questions-&amp;-Hypotheses">Research Questions &amp; Hypotheses<a class="anchor-link" href="#Research-Questions-&amp;-Hypotheses">¶</a></h3><hr/>
+<p>Based on historical studies and prior research, I investigate several questions about survival on the Titanic.</p>
 <ol>
 <li><p><strong>Class Disparities</strong>
 <em>Did passenger class influence survival outcomes? - (RQ1).</em>
@@ -7852,7 +7854,8 @@ Historical research suggests that female passengers had higher survival chances 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="1.-Collect-Initial-Data">1. Collect Initial Data<a class="anchor-link" href="#1.-Collect-Initial-Data">¶</a></h3><p>The first step is to load the Titanic dataset into the Python environment. Even though this step is simple, it helps confirm that the dataset is available and correctly formatted.</p>
+<h3 id="1.-Collect-Initial-Data">1. Collect Initial Data<a class="anchor-link" href="#1.-Collect-Initial-Data">¶</a></h3><hr/>
+<p>The first step is to load the Titanic dataset into the Python environment. Even though this step is simple, it helps confirm that the dataset is available and correctly formatted.</p>
 <p>I use the Pandas library, which is widely used for handling tabular data and DataFrame structures [5].</p>
 <p>The dataset is stored in the project directory and contains passenger information such as age, ticket fare, passenger class, and survival outcome.</p>
 <p>After loading the dataset, I check the first few rows to verify that:</p>
@@ -7946,7 +7949,8 @@ By loading the dataset, I can:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="2.-Describe-Data">2. Describe Data<a class="anchor-link" href="#2.-Describe-Data">¶</a></h3><p>In this step, I examine the dataset structure and summary statistics to understand the characteristics of each variable.</p>
+<h3 id="2.-Describe-Data">2. Describe Data<a class="anchor-link" href="#2.-Describe-Data">¶</a></h3><hr/>
+<p>In this step, I examine the dataset structure and summary statistics to understand the characteristics of each variable.</p>
 <p>This helps me:</p>
 <ul>
 <li>Identify numerical and categorical variables</li>
@@ -8683,7 +8687,8 @@ Name: proportion, dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="3.-Explore-Data">3. Explore Data<a class="anchor-link" href="#3.-Explore-Data">¶</a></h3><p>In this section, I perform exploratory data analysis (EDA) to investigate patterns in the dataset.</p>
+<h3 id="3.-Explore-Data">3. Explore Data<a class="anchor-link" href="#3.-Explore-Data">¶</a></h3><hr/>
+<p>In this section, I perform exploratory data analysis (EDA) to investigate patterns in the dataset.</p>
 <p>The goal is to examine how passenger characteristics relate to survival outcomes. This step helps identify features that may be useful for prediction. [2]</p>
 <p>The analysis focuses on:</p>
 <ul>
@@ -9643,7 +9648,8 @@ I used fare bracket instead of raw fare values. The benefit is easier interpreta
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="4.-Verify-Data-Quality">4. Verify Data Quality<a class="anchor-link" href="#4.-Verify-Data-Quality">¶</a></h3><p>Before moving to the data preparation phase, I conduct a data quality audit.</p>
+<h3 id="4.-Verify-Data-Quality">4. Verify Data Quality<a class="anchor-link" href="#4.-Verify-Data-Quality">¶</a></h3><hr/>
+<p>Before moving to the data preparation phase, I conduct a data quality audit.</p>
 <p>This step helps ensure that the dataset is reliable and suitable for modeling.</p>
 <p>The main checks include:</p>
 <ul>
@@ -10614,7 +10620,8 @@ Conclusion: Embarked appears weaker than core predictors; excluding Embarked_Cod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h3><p>The data understanding phase provides several important insights.</p>
+<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h3><hr/>
+<p>The data understanding phase provides several important insights.</p>
 <p>First, the dataset is generally clean and suitable for analysis, although some feature engineering will be required.</p>
 <p>Secondly, several variables show clear relationships with survival:</p>
 <ul>
@@ -10642,7 +10649,8 @@ Conclusion: Embarked appears weaker than core predictors; excluding Embarked_Cod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><ul>
+<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><hr/>
+<ul>
 <li>[1] Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., &amp; Wirth, R. (2000). CRISP-DM 1.0: Step-by-step data mining guide.</li>
 <li>[2] B. S. Frey, D. A. Savage, and B. Torgler, "Behavior under extreme conditions: The Titanic disaster," Journal of Economic Perspectives, vol. 25, no. 1, pp. 209–222, 2011.</li>
 <li>[3] G. James, D. Witten, T. Hastie, and R. Tibshirani, An Introduction to Statistical Learning: with Applications in R, 2nd ed. New York, NY: Springer, 2021.</li>
