@@ -28,6 +28,7 @@ def save_processed_data(df, filename=None):
         filename = "titanic_processed.csv"
 
     output_path = PROCESSED_DATA_DIR / filename
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(output_path, index=False)
 
     logger.success(f"Processed data saved to {output_path}")

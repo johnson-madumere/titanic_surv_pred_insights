@@ -2,7 +2,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = titanic_surv_pred_insights
+PROJECT_NAME = titanic-surv
 PYTHON_VERSION = 3.10
 PYTHON_INTERPRETER = python
 
